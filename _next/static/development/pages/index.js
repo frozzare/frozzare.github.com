@@ -697,7 +697,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     },
     __self: this
   })), __jsx("div", {
-    className: "w-11/12 lg:w-3/4 m-auto",
+    className: "w-11/12 lg:w-2/4 m-auto",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
