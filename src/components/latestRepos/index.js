@@ -35,8 +35,8 @@ export default () => {
     const repo = (event.repo || {});
     return (
       <>
-        <p><a href={(commit.url || '').replace('api.', '').replace('repos/', '')} rel="noopener noreferrer">{commit.message}</a> in <a href={(repo.url || '').replace('api.', '').replace('repos/', '')} rel="noopener noreferrer">{event.repo.name}</a></p>
-        <p className="text-xs text-gray-500 pt-1"><TimeAgo date={event.created_at} /></p>
+        <p><a href={(commit.url || '').replace('api.', '').replace('repos/', '')} className="underline" rel="noopener noreferrer">{commit.message}</a></p>
+        <p className="text-xs text-gray-500 pt-1"><TimeAgo date={event.created_at} /> in <a href={(repo.url || '').replace('api.', '').replace('repos/', '')} className="underline" rel="noopener noreferrer">{event.repo.name}</a></p>
       </>
     );
   });
