@@ -28,7 +28,7 @@ export default () => {
   return (
     <nav className="fixed select-none bg-grey lg:flex lg:items-stretch w-full text-gray-500 bg-gray-900">
       <div className="flex flex-no-shrink items-stretch h-14">
-        <a href="#" className="flex-no-grow flex-no-shrink relative p-5">
+        <a href="/" className="flex-no-grow flex-no-shrink relative p-5">
           <img src={logo} alt="Frozzare" className="w-32" />
         </a>
         <button className="block lg:hidden cursor-pointer ml-auto relative w-12 h-12 p-4 mt-2 mr-1">
@@ -61,6 +61,7 @@ export default () => {
               href={m.path}
               key={mi}
               className="text-sm flex-no-grow flex-no-shrink relative py-5 px-5 leading-normal text-white no-underline flex items-center hover:bg-grey-dark hover:underline"
+              onClick={() => setOpen(false)}
             >
               {m.title}
             </a>
