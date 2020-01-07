@@ -7493,7 +7493,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     title: "GitHub",
     target: "_blank",
     rel: "noopener noreferrer",
-    className: "p-5",
+    className: "p-5 pr-0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
