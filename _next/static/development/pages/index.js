@@ -400,21 +400,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       __self: this
     }, __jsx("a", {
       href: (commit.url || '').replace('api.', '').replace('repos/', ''),
+      className: "underline",
       rel: "noopener noreferrer",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 38
       },
       __self: this
-    }, commit.message), " in ", __jsx("a", {
-      href: (repo.url || '').replace('api.', '').replace('repos/', ''),
-      rel: "noopener noreferrer",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 38
-      },
-      __self: this
-    }, event.repo.name)), __jsx("p", {
+    }, commit.message)), __jsx("p", {
       className: "text-xs text-gray-500 pt-1",
       __source: {
         fileName: _jsxFileName,
@@ -428,7 +421,16 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
         lineNumber: 39
       },
       __self: this
-    })));
+    }), " in ", __jsx("a", {
+      href: (repo.url || '').replace('api.', '').replace('repos/', ''),
+      className: "underline",
+      rel: "noopener noreferrer",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39
+      },
+      __self: this
+    }, event.repo.name)));
   });
   return __jsx("div", {
     id: "projects",
