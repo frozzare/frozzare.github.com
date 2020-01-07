@@ -7596,7 +7596,7 @@ var menus = [{
     },
     __self: this
   }, __jsx("a", {
-    href: "#",
+    href: "/",
     className: "flex-no-grow flex-no-shrink relative p-5",
     __source: {
       fileName: _jsxFileName,
@@ -7683,6 +7683,9 @@ var menus = [{
       href: m.path,
       key: mi,
       className: "text-sm flex-no-grow flex-no-shrink relative py-5 px-5 leading-normal text-white no-underline flex items-center hover:bg-grey-dark hover:underline",
+      onClick: function onClick() {
+        return setOpen(false);
+      },
       __source: {
         fileName: _jsxFileName,
         lineNumber: 60

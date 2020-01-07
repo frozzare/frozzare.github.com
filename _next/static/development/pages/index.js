@@ -692,14 +692,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     },
     __self: this
   }, __jsx("div", {
-    className: "p-10 lg:px-0",
+    className: "p-10 pt-20 lg:px-0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
   }, __jsx("div", {
-    className: "flex flex-wrap content-center min-h-screen mt-20",
+    className: "flex flex-wrap content-center min-h-screen",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
