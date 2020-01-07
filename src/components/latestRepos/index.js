@@ -42,38 +42,42 @@ export default () => {
   });
 
   return (
-    <div id="projects" className="flex content-center bg-gray-100 p-10 min-h-screen">
-      <div className="m-auto">
-        <div className="flex justify-center">
-          <div className="w-full lg:w-3/4">
-            <h3 className="text-3xl pb-5">Selected projects</h3>
-            <div className="flex flex-wrap pb-5">
-              <div className="w-full lg:w-1/2">
-                <div className="p-2 pl-0">
-                  <h4 className="text-xl">
-                    <a href="https://github.com/ylletjs/yllet/" className="underline" rel="noopener noreferrer">Yllet</a>
-                    <span className="text-xs rounded py-1 px-2 ml-2" style={{backgroundColor: 'rgb(241, 224, 90)'}}>JavaScript</span>
-                  </h4>
-                  <p>Yllet is a set of packages for the WordPress API for both React and non-React projects.</p>
+    <div id="projects" className="bg-gray-100">
+      <div className="container mx-auto px-10 lg:px-0 py-20">
+        <div className="flex justify-center content-center min-h-screen">
+          <div className="m-auto">
+            <div className="flex justify-center">
+              <div className="w-full lg:w-3/4">
+                <h3 className="text-3xl pb-5">Selected projects</h3>
+                <div className="flex flex-wrap pb-5">
+                  <div className="w-full lg:w-1/2">
+                    <div className="p-2 pl-0">
+                      <h4 className="text-xl">
+                        <a href="https://github.com/ylletjs/yllet/" className="underline" rel="noopener noreferrer">Yllet</a>
+                        <span className="text-xs rounded py-1 px-2 ml-2" style={{backgroundColor: 'rgb(241, 224, 90)'}}>JavaScript</span>
+                      </h4>
+                      <p>Yllet is a set of packages for the WordPress API for both React and non-React projects.</p>
+                    </div>
+                  </div>
+                  <div className="w-full lg:w-1/2">
+                    <div className="p-2 pl-0">
+                      <h4 className="text-xl">
+                        <a href="https://swedishtechevents.com/" className="underline" rel="noopener noreferrer">Swedish Tech Events</a>
+                        <span className="text-xs rounded py-1 px-2 ml-2" style={{backgroundColor: 'rgb(241, 224, 90)'}}>JavaScript</span>
+                      </h4>
+                      <p>Events for developers, technologists, and other geeks in Sweden.</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="w-full lg:w-1/2">
-                <div className="p-2 pl-0">
-                  <h4 className="text-xl">
-                    <a href="https://swedishtechevents.com/" className="underline" rel="noopener noreferrer">Swedish Tech Events</a>
-                    <span className="text-xs rounded py-1 px-2 ml-2" style={{backgroundColor: 'rgb(241, 224, 90)'}}>JavaScript</span>
-                  </h4>
-                  <p>Events for developers, technologists, and other geeks in Sweden.</p>
+                <h3 className="text-3xl pb-5">Latest repos</h3>
+                <div className="flex flex-wrap pb-5">
+                  {repos.length ? reposHtml : <p>Loading..</p>}
                 </div>
+                <h3 className="text-3xl pb-5">Latest commit</h3>
+                {events.length ? latestCommit : <p>Loading...</p>}
+                <p className='mt-5'><Link to='https://github.com/frozzare' title='Visit my GitHub profile' /></p>
               </div>
             </div>
-            <h3 className="text-3xl pb-5">Latest repos</h3>
-            <div className="flex flex-wrap pb-5">
-              {repos.length ? reposHtml : <p>Loading..</p>}
-            </div>
-            <h3 className="text-3xl pb-5">Latest commit</h3>
-            {events.length ? latestCommit : <p>Loading...</p>}
-            <p className='mt-5'><Link to='https://github.com/frozzare' title='Visit my GitHub profile' /></p>
           </div>
         </div>
       </div>
