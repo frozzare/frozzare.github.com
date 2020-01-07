@@ -4,7 +4,7 @@ import Link from '../components/link';
 export default () => (
   <>
     <div id="home" className="container mx-auto">
-      <div className="p-10 pt-20 lg:px-0">
+      <div className="pt-20">
         <div className="flex flex-wrap content-center min-h-screen">
           <div className="w-full flex justify-center">
             <img src="https://frozzare.com/static/frozzare.jpg" className="rounded h-48 w-48 lg:h-64 lg:w-64 lg:pin-l lg:pin-t mt-10 mb-10 lg:mt-0 lg:-mt-32 mb-0 lg:mb-12" />
