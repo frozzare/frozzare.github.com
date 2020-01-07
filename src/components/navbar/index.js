@@ -1,19 +1,19 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
-const logo = require("../../../images/logo-white.png");
+const logo = require('../../images/logo-white.png');
 
 const menus = [
   {
-    title: "Home",
-    path: "/"
+    title: 'Home',
+    path: '/'
   },
   {
-    title: "Projects",
-    path: "#projects"
+    title: 'Projects',
+    path: '#projects'
   },
   {
-    title: "Contact",
-    path: "#contact"
+    title: 'Contact',
+    path: '#contact'
   }
 ];
 
@@ -21,7 +21,7 @@ export default () => {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    const SmoothScroll = require("smooth-scroll");
+    const SmoothScroll = require('smooth-scroll');
     new SmoothScroll('a[href*="#"]');
   }, []);
 
@@ -29,7 +29,7 @@ export default () => {
     <nav className="relative select-none bg-grey lg:flex lg:items-stretch w-full text-gray-500 bg-gray-900">
       <div className="flex flex-no-shrink items-stretch h-14">
         <a href="#" className="flex-no-grow flex-no-shrink relative p-5">
-          <img src={logo} alt="Hyperstat" className="w-32" />
+          <img src={logo} alt="Frozzare" className="w-32" />
         </a>
         <button className="block lg:hidden cursor-pointer ml-auto relative w-12 h-12 p-4 mt-2 mr-1">
           {open ? (

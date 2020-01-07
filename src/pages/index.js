@@ -1,5 +1,5 @@
-import LatestRepos from './components/latestRepos';
-import Link from './components/link';
+import LatestRepos from '../components/latestRepos';
+import Link from '../components/link';
 
 export default () => (
   <div>

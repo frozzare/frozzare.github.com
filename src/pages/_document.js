@@ -56,14 +56,15 @@ export default class AppDocument extends Document {
             href='/static/favicon-16x16.png'
           />
           <link rel='manifest' href='/static/site.webmanifest' />
-          <link rel='shortcut icon' href='' />
-          <meta name='description' content='' />
-          <meta property='og:title' content='' />
-          <meta property='og:description' content='' />
-          <meta property='og:image' content='' />
-          <meta name='twitter:title' content='' />
-          <meta name='twitter:description' content='' />
-          <meta name='twitter:image' content='' />
+          <link rel='shortcut icon' href='/static/favicon.ico' />
+          <title>Fredrik Forsmo</title>
+          <meta name='description' content='Full-stack developer, tech maker and open source ninja.' />
+          <meta property='og:title' content='Fredrik Forsmo' />
+          <meta property='og:description' content='Full-stack developer, tech maker and open source ninja.' />
+          <meta property='og:image' content='https://frozzare.com/static/frozzare.jpg' />
+          <meta name='twitter:title' content='Fredrik Forsmo' />
+          <meta name='twitter:description' content='Full-stack developer, tech maker and open source ninja.' />
+          <meta name='twitter:image' content='https://frozzare.com/static/frozzare.jpg' />
           <meta name='twitter:card' content='summary' />
         </Head>
         <body>
