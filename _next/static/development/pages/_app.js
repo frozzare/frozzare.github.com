@@ -7399,14 +7399,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return __jsx("footer", {
     id: "contact",
-    className: "p-10",
+    className: "p-10 text-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
   }, __jsx("h2", {
-    className: "text-4xl pb-5",
+    className: "text-4xl pb-2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -7428,7 +7428,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     },
     __self: this
   })), __jsx("p", {
-    className: "pt-5",
+    className: "pt-8",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
