@@ -432,66 +432,80 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
   });
   return __jsx("div", {
     id: "projects",
-    className: "flex content-center bg-gray-100 p-10 min-h-screen",
+    className: "bg-gray-100",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45
     },
     __self: this
   }, __jsx("div", {
-    className: "m-auto",
+    className: "container mx-auto px-10 lg:px-0 py-20",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46
     },
     __self: this
   }, __jsx("div", {
-    className: "flex justify-center",
+    className: "flex justify-center content-center min-h-screen",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 47
     },
     __self: this
   }, __jsx("div", {
-    className: "w-full lg:w-3/4",
+    className: "m-auto",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 48
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "flex justify-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "w-full lg:w-3/4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
     },
     __self: this
   }, __jsx("h3", {
     className: "text-3xl pb-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 51
     },
     __self: this
   }, "Selected projects"), __jsx("div", {
     className: "flex flex-wrap pb-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 52
     },
     __self: this
   }, __jsx("div", {
     className: "w-full lg:w-1/2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 53
     },
     __self: this
   }, __jsx("div", {
     className: "p-2 pl-0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 54
     },
     __self: this
   }, __jsx("h4", {
     className: "text-xl",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 55
     },
     __self: this
   }, __jsx("a", {
@@ -500,7 +514,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 56
     },
     __self: this
   }, "Yllet"), __jsx("span", {
@@ -510,34 +524,34 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 57
     },
     __self: this
   }, "JavaScript")), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 59
     },
     __self: this
   }, "Yllet is a set of packages for the WordPress API for both React and non-React projects."))), __jsx("div", {
     className: "w-full lg:w-1/2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 62
     },
     __self: this
   }, __jsx("div", {
     className: "p-2 pl-0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 63
     },
     __self: this
   }, __jsx("h4", {
     className: "text-xl",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 64
     },
     __self: this
   }, __jsx("a", {
@@ -546,7 +560,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 65
     },
     __self: this
   }, "Swedish Tech Events"), __jsx("span", {
@@ -556,53 +570,53 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 66
     },
     __self: this
   }, "JavaScript")), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 68
     },
     __self: this
   }, "Events for developers, technologists, and other geeks in Sweden.")))), __jsx("h3", {
     className: "text-3xl pb-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 72
     },
     __self: this
   }, "Latest repos"), __jsx("div", {
     className: "flex flex-wrap pb-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 73
     },
     __self: this
   }, repos.length ? reposHtml : __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 74
     },
     __self: this
   }, "Loading..")), __jsx("h3", {
     className: "text-3xl pb-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 76
     },
     __self: this
   }, "Latest commit"), events.length ? latestCommit : __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 77
     },
     __self: this
   }, "Loading..."), __jsx("p", {
     className: "mt-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 78
     },
     __self: this
   }, __jsx(_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -610,10 +624,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     title: "Visit my GitHub profile",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 78
     },
     __self: this
-  }))))));
+  }))))))));
 });
 
 /***/ }),
@@ -669,31 +683,33 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "pb-10 lg:pb-0",
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
+    id: "home",
+    className: "container mx-auto",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
   }, __jsx("div", {
-    className: "flex flex-wrap content-center min-h-screen",
+    className: "p-10 lg:px-0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
   }, __jsx("div", {
-    className: "w-full flex justify-center",
+    className: "flex flex-wrap content-center min-h-screen mt-20",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "w-full flex justify-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
     },
     __self: this
   }, __jsx("img", {
@@ -701,28 +717,28 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: "rounded h-48 w-48 lg:h-64 lg:w-64 lg:pin-l lg:pin-t mt-10 mb-10 lg:mt-0 lg:-mt-32 mb-0 lg:mb-12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   })), __jsx("div", {
     className: "w-11/12 lg:w-2/4 m-auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }, __jsx("h1", {
     className: "text-6xl pb-5 text-center lg:text-left",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }, "Hello! \uD83D\uDC4B"), __jsx("p", {
     className: "text-2xl",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, "I'm Fredrik Forsmo, full-stack developer, tech maker and open source ninja and focusing on JavaScript, PHP and Go. I'm ", __jsx(_components_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -730,13 +746,13 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     title: "@frozzare",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
-  }), " on Twitter.")))), __jsx(_components_latestRepos__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }), " on Twitter."))))), __jsx(_components_latestRepos__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 19
     },
     __self: this
   }));

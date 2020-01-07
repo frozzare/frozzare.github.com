@@ -7563,7 +7563,7 @@ var logo = __webpack_require__(/*! ../../images/logo-white.png */ "./src/images/
 
 var menus = [{
   title: 'Home',
-  path: '/'
+  path: '#home'
 }, {
   title: 'Projects',
   path: '#projects'
@@ -7582,7 +7582,7 @@ var menus = [{
     new SmoothScroll('a[href*="#"]');
   }, []);
   return __jsx("nav", {
-    className: "relative select-none bg-grey lg:flex lg:items-stretch w-full text-gray-500 bg-gray-900",
+    className: "fixed select-none bg-grey lg:flex lg:items-stretch w-full text-gray-500 bg-gray-900",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
