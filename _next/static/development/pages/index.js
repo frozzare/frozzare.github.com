@@ -698,7 +698,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: this
   }, __jsx("img", {
     src: "https://frozzare.com/static/frozzare.jpg",
-    className: "rounded h-48 w-48 lg:pin-l lg:pin-t mt-10 mb-10 lg:mt-0 lg:-mt-32 mb-0 lg:mb-12",
+    className: "rounded h-48 w-48 lg:h-64 lg:w-64 lg:pin-l lg:pin-t mt-10 mb-10 lg:mt-0 lg:-mt-32 mb-0 lg:mb-12",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
