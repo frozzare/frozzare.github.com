@@ -14,7 +14,7 @@ export default () => (
       <a href="http://se.linkedin.com/in/frozzare/" title="LinkedIn" target="_blank" rel="noopener noreferrer" className="p-5">
         <i className="fab fa-2x fa-linkedin"></i>
       </a>
-      <a href="https://github.com/frozzare" title="GitHub" target="_blank" rel="noopener noreferrer" className="p-5">
+      <a href="https://github.com/frozzare" title="GitHub" target="_blank" rel="noopener noreferrer" className="p-5 pr-0">
         <i className="fab fa-2x fa-github"></i>
       </a>
     </p>
