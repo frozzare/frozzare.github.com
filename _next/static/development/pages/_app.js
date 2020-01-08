@@ -14639,6 +14639,7 @@ var menus = [{
     __self: this
   })), __jsx("button", {
     className: "block lg:hidden cursor-pointer ml-auto relative w-12 h-12 p-4 mt-2 mr-1",
+    "aria-label": "Menu",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
