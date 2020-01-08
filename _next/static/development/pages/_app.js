@@ -14583,9 +14583,6 @@ var _jsxFileName = "/Users/fredrik/u/github/frozzare/newwww/src/components/navba
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-
-var logo = __webpack_require__(/*! ../../images/logo-white.png */ "./src/images/logo-white.png");
-
 var menus = [{
   title: 'Home',
   path: '#home'
@@ -14610,14 +14607,14 @@ var menus = [{
     className: "fixed select-none bg-grey lg:flex lg:items-stretch w-full text-gray-500 bg-gray-900",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 27
     },
     __self: this
   }, __jsx("div", {
     className: "flex flex-no-shrink items-stretch h-14",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 28
     },
     __self: this
   }, __jsx("a", {
@@ -14625,16 +14622,16 @@ var menus = [{
     className: "flex-no-grow flex-no-shrink relative p-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 29
     },
     __self: this
   }, __jsx("img", {
-    src: logo,
+    src: "/logo-white.png",
     alt: "Frozzare",
     className: "w-32",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 30
     },
     __self: this
   })), __jsx("button", {
@@ -14642,7 +14639,7 @@ var menus = [{
     "aria-label": "Menu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 32
     },
     __self: this
   }, open ? __jsx("svg", {
@@ -14654,14 +14651,14 @@ var menus = [{
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 34
     },
     __self: this
   }, __jsx("path", {
     d: "M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 40
     },
     __self: this
   })) : __jsx("svg", {
@@ -14673,35 +14670,35 @@ var menus = [{
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 43
     },
     __self: this
   }, __jsx("path", {
     d: "M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 49
     },
     __self: this
   })))), __jsx("div", {
     className: 'lg:flex lg:items-stretch lg:flex-no-shrink lg:flex-grow ' + (open ? 'block' : 'hidden lg:block'),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 54
     },
     __self: this
   }, __jsx("div", {
     className: "lg:flex lg:justify-start",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 55
     },
     __self: this
   }), __jsx("div", {
     className: "lg:flex lg:items-stretch lg:justify-end ml-auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 56
     },
     __self: this
   }, menus.map(function (m, mi) {
@@ -14714,23 +14711,12 @@ var menus = [{
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60
+        lineNumber: 58
       },
       __self: this
     }, m.title);
   }))));
 });
-
-/***/ }),
-
-/***/ "./src/images/logo-white.png":
-/*!***********************************!*\
-  !*** ./src/images/logo-white.png ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/logo-white-f86c7237d6f5772a83c6a9573de35583.png";
 
 /***/ }),
 

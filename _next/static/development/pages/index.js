@@ -5281,17 +5281,6 @@ module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f
 
 /***/ }),
 
-/***/ "./public/frozzare.jpg":
-/*!*****************************!*\
-  !*** ./public/frozzare.jpg ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/frozzare-b343c990d8c64a3cd815785ba430c415.jpg";
-
-/***/ }),
-
 /***/ "./src/components/latestRepos/index.js":
 /*!*********************************************!*\
   !*** ./src/components/latestRepos/index.js ***!
@@ -5733,7 +5722,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     },
     __self: this
   }, __jsx(react_lazy_load_image_component__WEBPACK_IMPORTED_MODULE_4__["LazyLoadImage"], {
-    src: __webpack_require__(/*! ../../public/frozzare.jpg */ "./public/frozzare.jpg"),
+    src: "/frozzare.jpg",
     alt: "Fredrik Forsmo",
     className: "rounded h-48 w-48 lg:h-64 lg:w-64",
     __source: {
