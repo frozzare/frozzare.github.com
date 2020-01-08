@@ -19,6 +19,7 @@
     "postcss-easy-import": "^3.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-lazy-load-image-component": "^1.4.0",
     "react-timeago": "^4.4.0",
     "rimraf": "^3.0.0",
     "semistandard": "^14.2.0",
@@ -28,7 +29,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next",
-    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && touch out/CNAME && echo \"frozzare.com\" >> out/CNAME && gh-pages -d out -b master --dotfiles",
+    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && touch out/CNAME && echo \"frozzare.com\" >> out/CNAME && cp -R public/* out/ && gh-pages -d out -b master --dotfiles",
     "export": "next export -o ./out ./src",
     "lint": "semistandard",
     "sitemap": "node scripts/sitemap.js",

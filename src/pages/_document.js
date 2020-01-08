@@ -31,37 +31,31 @@ export default class AppDocument extends Document {
           <link rel='dns-prefetch' href='//fonts.googleapis.com/' />
           <link rel='dns-prefetch' href='//www.google-analytics.com' />
           <link
-            rel='sitemap'
-            type='application/xml'
-            title='Sitemap'
-            href='/sitemap.xml'
-          />
-          <link
             rel='apple-touch-icon'
             sizes='180x180'
-            href='/static/apple-touch-icon.png'
+            href='/apple-touch-icon.png'
           />
           <link
             rel='icon'
             type='image/png'
             sizes='32x32'
-            href='/static/favicon-32x32.png'
+            href='/favicon-32x32.png'
           />
           <link
             rel='icon'
             type='image/png'
             sizes='16x16'
-            href='/static/favicon-16x16.png'
+            href='/favicon-16x16.png'
           />
-          <link rel='manifest' href='/static/site.webmanifest' />
-          <link rel='shortcut icon' href='/static/favicon.ico' />
+          <link rel='manifest' href='/site.webmanifest' />
+          <link rel='shortcut icon' href='/favicon.ico' />
           <meta name='description' content='Full-stack developer, tech maker and open source ninja.' />
           <meta property='og:title' content='Fredrik Forsmo' />
           <meta property='og:description' content='Full-stack developer, tech maker and open source ninja.' />
-          <meta property='og:image' content='https://frozzare.com/static/frozzare.jpg' />
+          <meta property='og:image' content='/frozzare.jpg' />
           <meta name='twitter:title' content='Fredrik Forsmo' />
           <meta name='twitter:description' content='Full-stack developer, tech maker and open source ninja.' />
-          <meta name='twitter:image' content='https://frozzare.com/static/frozzare.jpg' />
+          <meta name='twitter:image' content='/frozzare.jpg' />
           <meta name='twitter:card' content='summary' />
         </Head>
         <body>

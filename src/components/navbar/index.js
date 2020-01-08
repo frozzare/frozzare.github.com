@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react';
 
-const logo = require('../../images/logo-white.png');
-
 const menus = [
   {
     title: 'Home',
@@ -29,7 +27,7 @@ export default () => {
     <nav className="fixed select-none bg-grey lg:flex lg:items-stretch w-full text-gray-500 bg-gray-900">
       <div className="flex flex-no-shrink items-stretch h-14">
         <a href="/" className="flex-no-grow flex-no-shrink relative p-5">
-          <img src={logo} alt="Frozzare" className="w-32" />
+          <img src='/logo-white.png' alt="Frozzare" className="w-32" />
         </a>
         <button className="block lg:hidden cursor-pointer ml-auto relative w-12 h-12 p-4 mt-2 mr-1" aria-label="Menu">
           {open ? (
