@@ -31,7 +31,7 @@ export default () => {
         <a href="/" className="flex-no-grow flex-no-shrink relative p-5">
           <img src={logo} alt="Frozzare" className="w-32" />
         </a>
-        <button className="block lg:hidden cursor-pointer ml-auto relative w-12 h-12 p-4 mt-2 mr-1">
+        <button className="block lg:hidden cursor-pointer ml-auto relative w-12 h-12 p-4 mt-2 mr-1" aria-label="Menu">
           {open ? (
             <svg
               className="fill-current text-white"

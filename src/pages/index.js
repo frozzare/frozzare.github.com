@@ -11,7 +11,7 @@ export default () => (
       <div className="pt-20">
         <div className="flex flex-wrap content-center min-h-screen">
           <div className="w-full flex justify-center">
-            <img src="https://frozzare.com/static/frozzare.jpg" className="rounded h-48 w-48 lg:h-64 lg:w-64 lg:pin-l lg:pin-t mt-10 mb-10 lg:mt-0 lg:-mt-32 mb-0 lg:mb-12" />
+            <img src="https://frozzare.com/static/frozzare.jpg" alt="Fredrik Forsmo" className="rounded h-48 w-48 lg:h-64 lg:w-64 lg:pin-l lg:pin-t mt-10 mb-10 lg:mt-0 lg:-mt-32 mb-0 lg:mb-12" />
           </div>
           <div className="w-11/12 lg:w-2/4 m-auto">
             <h1 className="text-6xl pb-5 text-center lg:text-left">Hello! 👋</h1>
