@@ -1,8 +1,12 @@
 import LatestRepos from '../components/latestRepos';
 import Link from '../components/link';
+import Head from 'next/head';
 
 export default () => (
   <>
+    <Head>
+      <title>Fredrik Forsmo</title>
+    </Head>
     <div id="home" className="container mx-auto">
       <div className="pt-20">
         <div className="flex flex-wrap content-center min-h-screen">

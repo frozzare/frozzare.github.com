@@ -30,8 +30,6 @@ export default class AppDocument extends Document {
           <meta name='viewport' content='width=device-width, initial-scale=1' />
           <link rel='dns-prefetch' href='//fonts.googleapis.com/' />
           <link rel='dns-prefetch' href='//www.google-analytics.com' />
-          <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"/>
-          <link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" rel="stylesheet" crossOrigin="anonymous" />
           <link
             rel='sitemap'
             type='application/xml'
@@ -57,7 +55,6 @@ export default class AppDocument extends Document {
           />
           <link rel='manifest' href='/static/site.webmanifest' />
           <link rel='shortcut icon' href='/static/favicon.ico' />
-          <title>Fredrik Forsmo</title>
           <meta name='description' content='Full-stack developer, tech maker and open source ninja.' />
           <meta property='og:title' content='Fredrik Forsmo' />
           <meta property='og:description' content='Full-stack developer, tech maker and open source ninja.' />
@@ -75,6 +72,8 @@ export default class AppDocument extends Document {
               <script dangerouslySetInnerHTML={this.setGoogleAnalytics()} />
             </>
           )}
+          <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js" />
+          <script dangerouslySetInnerHTML={{__html:`WebFont.load({ google: { families: ['Roboto'] } });`}} />
         </body>
       </html>
     );
