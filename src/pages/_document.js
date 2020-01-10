@@ -49,14 +49,6 @@ export default class AppDocument extends Document {
           />
           <link rel='manifest' href='/site.webmanifest' />
           <link rel='shortcut icon' href='/favicon.ico' />
-          <meta name='description' content='Full-stack developer, tech maker and open source ninja.' />
-          <meta property='og:title' content='Fredrik Forsmo' />
-          <meta property='og:description' content='Full-stack developer, tech maker and open source ninja.' />
-          <meta property='og:image' content='https://frozzare.com/frozzare.jpg' />
-          <meta name='twitter:title' content='Fredrik Forsmo' />
-          <meta name='twitter:description' content='Full-stack developer, tech maker and open source ninja.' />
-          <meta name='twitter:image' content='https://frozzare.com/frozzare.jpg' />
-          <meta name='twitter:card' content='summary' />
         </Head>
         <body>
           <Main />

@@ -5,6 +5,14 @@ export default () => (
   <>
     <Head>
       <title>Uses - Fredrik Forsmo</title>
+      <meta name='description' content='The tools Fredrik Forsmo uses' />
+      <meta property='og:title' content='Uses - Fredrik Forsmo' />
+      <meta property='og:description' content='The tools Fredrik Forsmo uses' />
+      <meta property='og:image' content='https://frozzare.com/frozzare.jpg' />
+      <meta name='twitter:title' content='Uses - Fredrik Forsmo' />
+      <meta name='twitter:description' content='The tools Fredrik Forsmo uses' />
+      <meta name='twitter:image' content='https://frozzare.com/frozzare.jpg' />
+      <meta name='twitter:card' content='summary' />
     </Head>
     <div className="container mx-auto">
       <div className="pt-32">
@@ -14,7 +22,7 @@ export default () => (
 
             <div className="text-lg mb-5">
               <h3 className="text-2xl">Website</h3>
-              <p>This website is built with <Link to='https://nextjs.org'>Next.js</Link> and <Link to='https://tailwindcss.com/'>Tailwind CSS</Link> and hosted on <Link to='https://pages.github.com/'>GitHub Pages</Link>.</p>
+              <p className="mt-2">This website is built with <Link to='https://nextjs.org'>Next.js</Link> and <Link to='https://tailwindcss.com/'>Tailwind CSS</Link> and hosted on <Link to='https://pages.github.com/'>GitHub Pages</Link>.</p>
             </div>
 
             <div className="text-lg mb-5">

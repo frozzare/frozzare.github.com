@@ -7,6 +7,14 @@ export default () => (
   <>
     <Head>
       <title>Fredrik Forsmo</title>
+      <meta name='description' content='Full-stack developer, tech maker and open source ninja.' />
+      <meta property='og:title' content='Fredrik Forsmo' />
+      <meta property='og:description' content='Full-stack developer, tech maker and open source ninja.' />
+      <meta property='og:image' content='https://frozzare.com/frozzare.jpg' />
+      <meta name='twitter:title' content='Fredrik Forsmo' />
+      <meta name='twitter:description' content='Full-stack developer, tech maker and open source ninja.' />
+      <meta name='twitter:image' content='https://frozzare.com/frozzare.jpg' />
+      <meta name='twitter:card' content='summary' />
     </Head>
     <div id="home" className="container mx-auto">
       <div className="pt-20">
