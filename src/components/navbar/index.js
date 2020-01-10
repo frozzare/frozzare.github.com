@@ -1,21 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const menus = [
-  {
-    title: 'Home',
-    path: '#home'
-  },
-  {
-    title: 'Projects',
-    path: '#projects'
-  },
-  {
-    title: 'Contact',
-    path: '#contact'
-  }
-];
-
-export default () => {
+export default ({ menus }) => {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
