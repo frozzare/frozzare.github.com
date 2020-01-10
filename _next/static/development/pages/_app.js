@@ -14411,7 +14411,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
 /* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js");
 /* harmony import */ var _link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../link */ "./src/components/link/index.js");
-var _jsxFileName = "/Users/fredrik/u/github/frozzare/newwww/src/components/footer/index.js";
+var _jsxFileName = "/Users/fredrik/u/github/frozzare/frozzare.github.com/src/components/footer/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -14442,13 +14442,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: this
   }, "Want to work together? Send me an email at ", __jsx(_link__WEBPACK_IMPORTED_MODULE_3__["default"], {
     to: "mailto:hello@frozzare.com",
-    title: "hello@frozzare.com",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  })), __jsx("p", {
+  }, "hello@frozzare.com")), __jsx("p", {
     className: "pt-8",
     __source: {
       fileName: _jsxFileName,
@@ -14547,11 +14546,11 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/fredrik/u/github/frozzare/newwww/src/components/link/index.js";
+var _jsxFileName = "/Users/fredrik/u/github/frozzare/frozzare.github.com/src/components/link/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
-  var title = _ref.title,
+  var children = _ref.children,
       to = _ref.to;
   return __jsx("a", {
     className: "underline text-blue-500",
@@ -14563,7 +14562,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
       lineNumber: 2
     },
     __self: this
-  }, title);
+  }, children);
 });
 
 /***/ }),
@@ -14579,21 +14578,13 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/fredrik/u/github/frozzare/newwww/src/components/navbar/index.js";
+var _jsxFileName = "/Users/fredrik/u/github/frozzare/frozzare.github.com/src/components/navbar/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-var menus = [{
-  title: 'Home',
-  path: '#home'
-}, {
-  title: 'Projects',
-  path: '#projects'
-}, {
-  title: 'Contact',
-  path: '#contact'
-}];
-/* harmony default export */ __webpack_exports__["default"] = (function () {
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var menus = _ref.menus;
+
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
       open = _useState[0],
       setOpen = _useState[1];
@@ -14607,14 +14598,14 @@ var menus = [{
     className: "fixed select-none bg-grey lg:flex lg:items-stretch w-full text-gray-500 bg-gray-900",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 12
     },
     __self: this
   }, __jsx("div", {
     className: "flex flex-no-shrink items-stretch h-14",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 13
     },
     __self: this
   }, __jsx("a", {
@@ -14622,7 +14613,7 @@ var menus = [{
     className: "flex-no-grow flex-no-shrink relative p-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 14
     },
     __self: this
   }, __jsx("img", {
@@ -14631,7 +14622,7 @@ var menus = [{
     className: "w-32",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 15
     },
     __self: this
   })), __jsx("button", {
@@ -14639,7 +14630,7 @@ var menus = [{
     "aria-label": "Menu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 17
     },
     __self: this
   }, open ? __jsx("svg", {
@@ -14651,14 +14642,14 @@ var menus = [{
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 19
     },
     __self: this
   }, __jsx("path", {
     d: "M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 25
     },
     __self: this
   })) : __jsx("svg", {
@@ -14670,35 +14661,35 @@ var menus = [{
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 28
     },
     __self: this
   }, __jsx("path", {
     d: "M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 34
     },
     __self: this
   })))), __jsx("div", {
     className: 'lg:flex lg:items-stretch lg:flex-no-shrink lg:flex-grow ' + (open ? 'block' : 'hidden lg:block'),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 39
     },
     __self: this
   }, __jsx("div", {
     className: "lg:flex lg:justify-start",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 40
     },
     __self: this
   }), __jsx("div", {
     className: "lg:flex lg:items-stretch lg:justify-end ml-auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 41
     },
     __self: this
   }, menus.map(function (m, mi) {
@@ -14711,7 +14702,7 @@ var menus = [{
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58
+        lineNumber: 43
       },
       __self: this
     }, m.title);
@@ -14750,13 +14741,26 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/fredrik/u/github/frozzare/newwww/src/pages/_app.js";
+var _jsxFileName = "/Users/fredrik/u/github/frozzare/frozzare.github.com/src/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
 
 
 
 
+var menus = [{
+  title: 'Home',
+  path: '#home'
+}, {
+  title: 'Projects',
+  path: '#projects'
+}, {
+  title: 'Uses',
+  path: '/uses'
+}, {
+  title: 'Contact',
+  path: '#contact'
+}];
 
 var Application =
 /*#__PURE__*/
@@ -14776,21 +14780,22 @@ function (_App) {
           Component = _this$props.Component,
           pageProps = _this$props.pageProps;
       return __jsx(react__WEBPACK_IMPORTED_MODULE_6___default.a.Fragment, null, __jsx(_components_navbar__WEBPACK_IMPORTED_MODULE_8__["default"], {
+        menus: menus,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 32
         },
         __self: this
       }), __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 33
         },
         __self: this
       })), __jsx(_components_footer__WEBPACK_IMPORTED_MODULE_9__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 34
         },
         __self: this
       }));

@@ -5157,7 +5157,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/fredrik/u/github/frozzare/newwww/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/fredrik/u/github/frozzare/frozzare.github.com/.next");
       return error;
     }
   };
