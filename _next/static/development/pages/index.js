@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/next/dist/pages/_error.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js":
 /*!*******************************************************************!*\
@@ -248,23 +248,6 @@ function _inherits(subClass, superClass) {
 }
 
 module.exports = _inherits;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
-  \******************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    "default": obj
-  };
-}
-
-module.exports = _interopRequireDefault;
 
 /***/ }),
 
@@ -3121,21 +3104,21 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Ffredrik%2Fu%2Fgithub%2Ffrozzare%2Ffrozzare.github.com%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js!./":
-/*!**********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Ffredrik%2Fu%2Fgithub%2Ffrozzare%2Ffrozzare.github.com%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
-  \**********************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Ffredrik%2Fu%2Fgithub%2Ffrozzare%2Ffrozzare.github.com%2Fsrc%2Fpages%2Findex.js!./":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Ffredrik%2Fu%2Fgithub%2Ffrozzare%2Ffrozzare.github.com%2Fsrc%2Fpages%2Findex.js ***!
+  \******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/next/dist/pages/_error", function() {
-      var mod = __webpack_require__(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
+      var mod = __webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")
       if(true) {
-        module.hot.accept(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js", function() {
-          if(!next.router.components["/next/dist/pages/_error"]) return
-          var updatedPage = __webpack_require__(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js")
-          next.router.update("/next/dist/pages/_error", updatedPage)
+        module.hot.accept(/*! ./src/pages/index.js */ "./src/pages/index.js", function() {
+          if(!next.router.components["/"]) return
+          var updatedPage = __webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js")
+          next.router.update("/", updatedPage)
         })
       }
       return mod
@@ -3548,129 +3531,1742 @@ exports["default"] = function () {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/pages/_error.js":
-/*!************************************************!*\
-  !*** ./node_modules/next/dist/pages/_error.js ***!
-  \************************************************/
+/***/ "./node_modules/react-dom/index.js":
+/*!***********************************************************************************************!*\
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_ef0ff7c60362f24a921f ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f */ "dll-reference dll_ef0ff7c60362f24a921f"))("./node_modules/react-dom/index.js");
+
+/***/ }),
+
+/***/ "./node_modules/react-lazy-load-image-component/build/index.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/react-lazy-load-image-component/build/index.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (function(e) {
+	var t = {};
+	function r(n) {
+		if (t[n]) return t[n].exports;
+		var o = (t[n] = { i: n, l: !1, exports: {} });
+		return e[n].call(o.exports, o, o.exports, r), (o.l = !0), o.exports;
+	}
+	return (
+		(r.m = e),
+		(r.c = t),
+		(r.d = function(e, t, n) {
+			r.o(e, t) ||
+				Object.defineProperty(e, t, { enumerable: !0, get: n });
+		}),
+		(r.r = function(e) {
+			'undefined' != typeof Symbol &&
+				Symbol.toStringTag &&
+				Object.defineProperty(e, Symbol.toStringTag, {
+					value: 'Module',
+				}),
+				Object.defineProperty(e, '__esModule', { value: !0 });
+		}),
+		(r.t = function(e, t) {
+			if ((1 & t && (e = r(e)), 8 & t)) return e;
+			if (4 & t && 'object' == typeof e && e && e.__esModule) return e;
+			var n = Object.create(null);
+			if (
+				(r.r(n),
+				Object.defineProperty(n, 'default', {
+					enumerable: !0,
+					value: e,
+				}),
+				2 & t && 'string' != typeof e)
+			)
+				for (var o in e)
+					r.d(
+						n,
+						o,
+						function(t) {
+							return e[t];
+						}.bind(null, o)
+					);
+			return n;
+		}),
+		(r.n = function(e) {
+			var t =
+				e && e.__esModule
+					? function() {
+							return e.default;
+					  }
+					: function() {
+							return e;
+					  };
+			return r.d(t, 'a', t), t;
+		}),
+		(r.o = function(e, t) {
+			return Object.prototype.hasOwnProperty.call(e, t);
+		}),
+		(r.p = ''),
+		r((r.s = 8))
+	);
+})([
+	function(e, t) {
+		e.exports = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+	},
+	function(e, t, r) {
+		e.exports = r(10)();
+	},
+	function(e, t, r) {
+		'use strict';
+		Object.defineProperty(t, '__esModule', { value: !0 }),
+			(t.default = function() {
+				return (
+					'undefined' != typeof window &&
+					'IntersectionObserver' in window &&
+					'isIntersecting' in
+						window.IntersectionObserverEntry.prototype
+				);
+			});
+	},
+	function(e, t, r) {
+		'use strict';
+		Object.defineProperty(t, '__esModule', { value: !0 });
+		var n = (function() {
+				function e(e, t) {
+					for (var r = 0; r < t.length; r++) {
+						var n = t[r];
+						(n.enumerable = n.enumerable || !1),
+							(n.configurable = !0),
+							'value' in n && (n.writable = !0),
+							Object.defineProperty(e, n.key, n);
+					}
+				}
+				return function(t, r, n) {
+					return r && e(t.prototype, r), n && e(t, n), t;
+				};
+			})(),
+			o = u(r(0)),
+			i = r(1),
+			a = u(r(4)),
+			l = u(r(12)),
+			s = u(r(2));
+		function u(e) {
+			return e && e.__esModule ? e : { default: e };
+		}
+		var c = (function(e) {
+			function t(e) {
+				!(function(e, t) {
+					if (!(e instanceof t))
+						throw new TypeError(
+							'Cannot call a class as a function'
+						);
+				})(this, t);
+				var r = (function(e, t) {
+						if (!e)
+							throw new ReferenceError(
+								"this hasn't been initialised - super() hasn't been called"
+							);
+						return !t ||
+							('object' != typeof t && 'function' != typeof t)
+							? e
+							: t;
+					})(
+						this,
+						(t.__proto__ || Object.getPrototypeOf(t)).call(this, e)
+					),
+					n = e.afterLoad,
+					o = e.beforeLoad,
+					i = e.scrollPosition,
+					a = e.visibleByDefault;
+				return (
+					(r.state = { visible: a }),
+					a && (o(), n()),
+					(r.onVisible = r.onVisible.bind(r)),
+					(r.isScrollTracked = Boolean(
+						i &&
+							Number.isFinite(i.x) &&
+							i.x >= 0 &&
+							Number.isFinite(i.y) &&
+							i.y >= 0
+					)),
+					r
+				);
+			}
+			return (
+				(function(e, t) {
+					if ('function' != typeof t && null !== t)
+						throw new TypeError(
+							'Super expression must either be null or a function, not ' +
+								typeof t
+						);
+					(e.prototype = Object.create(t && t.prototype, {
+						constructor: {
+							value: e,
+							enumerable: !1,
+							writable: !0,
+							configurable: !0,
+						},
+					})),
+						t &&
+							(Object.setPrototypeOf
+								? Object.setPrototypeOf(e, t)
+								: (e.__proto__ = t));
+				})(t, e),
+				n(t, [
+					{
+						key: 'componentDidUpdate',
+						value: function(e, t) {
+							t.visible !== this.state.visible &&
+								this.props.afterLoad();
+						},
+					},
+					{
+						key: 'onVisible',
+						value: function() {
+							this.props.beforeLoad(),
+								this.setState({ visible: !0 });
+						},
+					},
+					{
+						key: 'render',
+						value: function() {
+							if (this.state.visible) return this.props.children;
+							var e = this.props,
+								t = e.className,
+								r = e.delayMethod,
+								n = e.delayTime,
+								i = e.height,
+								u = e.placeholder,
+								c = e.scrollPosition,
+								f = e.style,
+								p = e.threshold,
+								d = e.useIntersectionObserver,
+								y = e.width;
+							return this.isScrollTracked ||
+								(d && (0, s.default)())
+								? o.default.createElement(a.default, {
+										className: t,
+										height: i,
+										onVisible: this.onVisible,
+										placeholder: u,
+										scrollPosition: c,
+										style: f,
+										threshold: p,
+										useIntersectionObserver: d,
+										width: y,
+								  })
+								: o.default.createElement(l.default, {
+										className: t,
+										delayMethod: r,
+										delayTime: n,
+										height: i,
+										onVisible: this.onVisible,
+										placeholder: u,
+										style: f,
+										threshold: p,
+										width: y,
+								  });
+						},
+					},
+				]),
+				t
+			);
+		})(o.default.Component);
+		(c.propTypes = {
+			afterLoad: i.PropTypes.func,
+			beforeLoad: i.PropTypes.func,
+			useIntersectionObserver: i.PropTypes.bool,
+			visibleByDefault: i.PropTypes.bool,
+		}),
+			(c.defaultProps = {
+				afterLoad: function() {
+					return {};
+				},
+				beforeLoad: function() {
+					return {};
+				},
+				useIntersectionObserver: !0,
+				visibleByDefault: !1,
+			}),
+			(t.default = c);
+	},
+	function(e, t, r) {
+		'use strict';
+		Object.defineProperty(t, '__esModule', { value: !0 });
+		var n =
+				Object.assign ||
+				function(e) {
+					for (var t = 1; t < arguments.length; t++) {
+						var r = arguments[t];
+						for (var n in r)
+							Object.prototype.hasOwnProperty.call(r, n) &&
+								(e[n] = r[n]);
+					}
+					return e;
+				},
+			o = (function() {
+				function e(e, t) {
+					for (var r = 0; r < t.length; r++) {
+						var n = t[r];
+						(n.enumerable = n.enumerable || !1),
+							(n.configurable = !0),
+							'value' in n && (n.writable = !0),
+							Object.defineProperty(e, n.key, n);
+					}
+				}
+				return function(t, r, n) {
+					return r && e(t.prototype, r), n && e(t, n), t;
+				};
+			})(),
+			i = u(r(0)),
+			a = u(r(5)),
+			l = r(1),
+			s = u(r(2));
+		function u(e) {
+			return e && e.__esModule ? e : { default: e };
+		}
+		var c = (function(e) {
+			function t(e) {
+				!(function(e, t) {
+					if (!(e instanceof t))
+						throw new TypeError(
+							'Cannot call a class as a function'
+						);
+				})(this, t);
+				var r = (function(e, t) {
+						if (!e)
+							throw new ReferenceError(
+								"this hasn't been initialised - super() hasn't been called"
+							);
+						return !t ||
+							('object' != typeof t && 'function' != typeof t)
+							? e
+							: t;
+					})(
+						this,
+						(t.__proto__ || Object.getPrototypeOf(t)).call(this, e)
+					),
+					n =
+						!e.scrollPosition &&
+						e.useIntersectionObserver &&
+						(0, s.default)();
+				if (((r.LAZY_LOAD_OBSERVER = { supportsObserver: n }), n)) {
+					var o = e.threshold;
+					r.LAZY_LOAD_OBSERVER.observer = new IntersectionObserver(
+						r.checkIntersections,
+						{ rootMargin: o + 'px' }
+					);
+				}
+				return r;
+			}
+			return (
+				(function(e, t) {
+					if ('function' != typeof t && null !== t)
+						throw new TypeError(
+							'Super expression must either be null or a function, not ' +
+								typeof t
+						);
+					(e.prototype = Object.create(t && t.prototype, {
+						constructor: {
+							value: e,
+							enumerable: !1,
+							writable: !0,
+							configurable: !0,
+						},
+					})),
+						t &&
+							(Object.setPrototypeOf
+								? Object.setPrototypeOf(e, t)
+								: (e.__proto__ = t));
+				})(t, e),
+				o(t, [
+					{
+						key: 'checkIntersections',
+						value: function(e) {
+							e.forEach(function(e) {
+								e.isIntersecting && e.target.onVisible();
+							});
+						},
+					},
+					{
+						key: 'componentDidMount',
+						value: function() {
+							this.placeholder &&
+								this.LAZY_LOAD_OBSERVER &&
+								this.LAZY_LOAD_OBSERVER.observer &&
+								((this.placeholder.onVisible = this.props.onVisible),
+								this.LAZY_LOAD_OBSERVER.observer.observe(
+									this.placeholder
+								)),
+								this.LAZY_LOAD_OBSERVER &&
+									!this.LAZY_LOAD_OBSERVER.supportsObserver &&
+									this.updateVisibility();
+						},
+					},
+					{
+						key: 'componentWillUnMount',
+						value: function() {
+							this.LAZY_LOAD_OBSERVER &&
+								this.LAZY_LOAD_OBSERVER.observer.unobserve(
+									this.placeholder
+								);
+						},
+					},
+					{
+						key: 'componentDidUpdate',
+						value: function() {
+							this.LAZY_LOAD_OBSERVER &&
+								!this.LAZY_LOAD_OBSERVER.supportsObserver &&
+								this.updateVisibility();
+						},
+					},
+					{
+						key: 'getPlaceholderBoundingBox',
+						value: function() {
+							var e =
+									arguments.length > 0 &&
+									void 0 !== arguments[0]
+										? arguments[0]
+										: this.props.scrollPosition,
+								t = this.placeholder.getBoundingClientRect(),
+								r = a.default.findDOMNode(this.placeholder)
+									.style,
+								n = {
+									left:
+										parseInt(
+											r.getPropertyValue('margin-left'),
+											10
+										) || 0,
+									top:
+										parseInt(
+											r.getPropertyValue('margin-top'),
+											10
+										) || 0,
+								};
+							return {
+								bottom: e.y + t.bottom + n.top,
+								left: e.x + t.left + n.left,
+								right: e.x + t.right + n.left,
+								top: e.y + t.top + n.top,
+							};
+						},
+					},
+					{
+						key: 'isPlaceholderInViewport',
+						value: function() {
+							if (
+								'undefined' == typeof window ||
+								!this.placeholder
+							)
+								return !1;
+							var e = this.props,
+								t = e.scrollPosition,
+								r = e.threshold,
+								n = this.getPlaceholderBoundingBox(t),
+								o = t.y + window.innerHeight,
+								i = t.x,
+								a = t.x + window.innerWidth,
+								l = t.y;
+							return Boolean(
+								l - r <= n.bottom &&
+									o + r >= n.top &&
+									i - r <= n.right &&
+									a + r >= n.left
+							);
+						},
+					},
+					{
+						key: 'updateVisibility',
+						value: function() {
+							this.isPlaceholderInViewport() &&
+								this.props.onVisible();
+						},
+					},
+					{
+						key: 'render',
+						value: function() {
+							var e = this,
+								t = this.props,
+								r = t.className,
+								o = t.height,
+								a = t.placeholder,
+								l = t.style,
+								s = t.width;
+							return a && 'function' != typeof a.type
+								? i.default.cloneElement(a, {
+										ref: function(t) {
+											return (e.placeholder = t);
+										},
+								  })
+								: i.default.createElement(
+										'span',
+										{
+											className: r,
+											ref: function(t) {
+												return (e.placeholder = t);
+											},
+											style: n(
+												{
+													display: 'inline-block',
+													height: o,
+													width: s,
+												},
+												l
+											),
+										},
+										a
+								  );
+						},
+					},
+				]),
+				t
+			);
+		})(i.default.Component);
+		(c.propTypes = {
+			onVisible: l.PropTypes.func.isRequired,
+			className: l.PropTypes.string,
+			height: l.PropTypes.number,
+			placeholder: l.PropTypes.element,
+			threshold: l.PropTypes.number,
+			useIntersectionObserver: l.PropTypes.bool,
+			scrollPosition: l.PropTypes.shape({
+				x: l.PropTypes.number.isRequired,
+				y: l.PropTypes.number.isRequired,
+			}),
+			width: l.PropTypes.number,
+		}),
+			(c.defaultProps = {
+				className: '',
+				height: 0,
+				placeholder: null,
+				threshold: 100,
+				useIntersectionObserver: !0,
+				width: 0,
+			}),
+			(t.default = c);
+	},
+	function(e, t) {
+		e.exports = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+	},
+	function(e, t, r) {
+		'use strict';
+		Object.defineProperty(t, '__esModule', { value: !0 });
+		var n =
+				Object.assign ||
+				function(e) {
+					for (var t = 1; t < arguments.length; t++) {
+						var r = arguments[t];
+						for (var n in r)
+							Object.prototype.hasOwnProperty.call(r, n) &&
+								(e[n] = r[n]);
+					}
+					return e;
+				},
+			o = (function() {
+				function e(e, t) {
+					for (var r = 0; r < t.length; r++) {
+						var n = t[r];
+						(n.enumerable = n.enumerable || !1),
+							(n.configurable = !0),
+							'value' in n && (n.writable = !0),
+							Object.defineProperty(e, n.key, n);
+					}
+				}
+				return function(t, r, n) {
+					return r && e(t.prototype, r), n && e(t, n), t;
+				};
+			})(),
+			i = p(r(0)),
+			a = p(r(5)),
+			l = r(1),
+			s = p(r(13)),
+			u = p(r(14)),
+			c = p(r(2)),
+			f = p(r(15));
+		function p(e) {
+			return e && e.__esModule ? e : { default: e };
+		}
+		function d(e, t) {
+			if (!e)
+				throw new ReferenceError(
+					"this hasn't been initialised - super() hasn't been called"
+				);
+			return !t || ('object' != typeof t && 'function' != typeof t)
+				? e
+				: t;
+		}
+		var y = function() {
+				return 'undefined' == typeof window
+					? 0
+					: window.scrollX || window.pageXOffset;
+			},
+			h = function() {
+				return 'undefined' == typeof window
+					? 0
+					: window.scrollY || window.pageYOffset;
+			};
+		t.default = function(e) {
+			var t = (function(t) {
+				function r(e) {
+					!(function(e, t) {
+						if (!(e instanceof t))
+							throw new TypeError(
+								'Cannot call a class as a function'
+							);
+					})(this, r);
+					var t = d(
+						this,
+						(r.__proto__ || Object.getPrototypeOf(r)).call(this, e)
+					);
+					if (
+						((t.useIntersectionObserver =
+							e.useIntersectionObserver && (0, c.default)()),
+						t.useIntersectionObserver)
+					)
+						return d(t);
+					var n = t.onChangeScroll.bind(t);
+					return (
+						'debounce' === e.delayMethod
+							? (t.delayedScroll = (0, s.default)(n, e.delayTime))
+							: 'throttle' === e.delayMethod &&
+							  (t.delayedScroll = (0, u.default)(
+									n,
+									e.delayTime
+							  )),
+						(t.state = { scrollPosition: { x: y(), y: h() } }),
+						(t.baseComponentRef = i.default.createRef()),
+						t
+					);
+				}
+				return (
+					(function(e, t) {
+						if ('function' != typeof t && null !== t)
+							throw new TypeError(
+								'Super expression must either be null or a function, not ' +
+									typeof t
+							);
+						(e.prototype = Object.create(t && t.prototype, {
+							constructor: {
+								value: e,
+								enumerable: !1,
+								writable: !0,
+								configurable: !0,
+							},
+						})),
+							t &&
+								(Object.setPrototypeOf
+									? Object.setPrototypeOf(e, t)
+									: (e.__proto__ = t));
+					})(r, t),
+					o(r, [
+						{
+							key: 'componentDidMount',
+							value: function() {
+								this.addListeners();
+							},
+						},
+						{
+							key: 'componentWillUnmount',
+							value: function() {
+								this.removeListeners();
+							},
+						},
+						{
+							key: 'componentDidUpdate',
+							value: function() {
+								'undefined' == typeof window ||
+									this.useIntersectionObserver ||
+									((0, f.default)(
+										a.default.findDOMNode(
+											this.baseComponentRef.current
+										)
+									) !== this.scrollElement &&
+										(this.removeListeners(),
+										this.addListeners()));
+							},
+						},
+						{
+							key: 'addListeners',
+							value: function() {
+								'undefined' == typeof window ||
+									this.useIntersectionObserver ||
+									((this.scrollElement = (0, f.default)(
+										a.default.findDOMNode(
+											this.baseComponentRef.current
+										)
+									)),
+									this.scrollElement.addEventListener(
+										'scroll',
+										this.delayedScroll,
+										{ passive: !0 }
+									),
+									window.addEventListener(
+										'resize',
+										this.delayedScroll,
+										{ passive: !0 }
+									),
+									this.scrollElement !== window &&
+										window.addEventListener(
+											'scroll',
+											this.delayedScroll,
+											{ passive: !0 }
+										));
+							},
+						},
+						{
+							key: 'removeListeners',
+							value: function() {
+								'undefined' == typeof window ||
+									this.useIntersectionObserver ||
+									(this.scrollElement.removeEventListener(
+										'scroll',
+										this.delayedScroll
+									),
+									window.removeEventListener(
+										'resize',
+										this.delayedScroll
+									),
+									this.scrollElement !== window &&
+										window.removeEventListener(
+											'scroll',
+											this.delayedScroll
+										));
+							},
+						},
+						{
+							key: 'onChangeScroll',
+							value: function() {
+								this.useIntersectionObserver ||
+									this.setState({
+										scrollPosition: { x: y(), y: h() },
+									});
+							},
+						},
+						{
+							key: 'render',
+							value: function() {
+								var t = this.props,
+									r =
+										(t.delayMethod,
+										t.delayTime,
+										(function(e, t) {
+											var r = {};
+											for (var n in e)
+												t.indexOf(n) >= 0 ||
+													(Object.prototype.hasOwnProperty.call(
+														e,
+														n
+													) &&
+														(r[n] = e[n]));
+											return r;
+										})(t, ['delayMethod', 'delayTime'])),
+									o = this.useIntersectionObserver
+										? null
+										: this.state.scrollPosition;
+								return i.default.createElement(
+									e,
+									n(
+										{
+											ref: this.baseComponentRef,
+											scrollPosition: o,
+										},
+										r
+									)
+								);
+							},
+						},
+					]),
+					r
+				);
+			})(i.default.Component);
+			return (
+				(t.propTypes = {
+					delayMethod: l.PropTypes.oneOf(['debounce', 'throttle']),
+					delayTime: l.PropTypes.number,
+					useIntersectionObserver: l.PropTypes.bool,
+				}),
+				(t.defaultProps = {
+					delayMethod: 'throttle',
+					delayTime: 300,
+					useIntersectionObserver: !0,
+				}),
+				t
+			);
+		};
+	},
+	function(e, t) {
+		var r;
+		r = (function() {
+			return this;
+		})();
+		try {
+			r = r || new Function('return this')();
+		} catch (e) {
+			'object' == typeof window && (r = window);
+		}
+		e.exports = r;
+	},
+	function(e, t, r) {
+		'use strict';
+		Object.defineProperty(t, '__esModule', { value: !0 }),
+			(t.trackWindowScroll = t.LazyLoadComponent = t.LazyLoadImage = void 0);
+		var n = a(r(9)),
+			o = a(r(3)),
+			i = a(r(6));
+		function a(e) {
+			return e && e.__esModule ? e : { default: e };
+		}
+		(t.LazyLoadImage = n.default),
+			(t.LazyLoadComponent = o.default),
+			(t.trackWindowScroll = i.default);
+	},
+	function(e, t, r) {
+		'use strict';
+		Object.defineProperty(t, '__esModule', { value: !0 });
+		var n =
+				Object.assign ||
+				function(e) {
+					for (var t = 1; t < arguments.length; t++) {
+						var r = arguments[t];
+						for (var n in r)
+							Object.prototype.hasOwnProperty.call(r, n) &&
+								(e[n] = r[n]);
+					}
+					return e;
+				},
+			o = (function() {
+				function e(e, t) {
+					for (var r = 0; r < t.length; r++) {
+						var n = t[r];
+						(n.enumerable = n.enumerable || !1),
+							(n.configurable = !0),
+							'value' in n && (n.writable = !0),
+							Object.defineProperty(e, n.key, n);
+					}
+				}
+				return function(t, r, n) {
+					return r && e(t.prototype, r), n && e(t, n), t;
+				};
+			})(),
+			i = s(r(0)),
+			a = r(1),
+			l = s(r(3));
+		function s(e) {
+			return e && e.__esModule ? e : { default: e };
+		}
+		var u = (function(e) {
+			function t(e) {
+				!(function(e, t) {
+					if (!(e instanceof t))
+						throw new TypeError(
+							'Cannot call a class as a function'
+						);
+				})(this, t);
+				var r = (function(e, t) {
+					if (!e)
+						throw new ReferenceError(
+							"this hasn't been initialised - super() hasn't been called"
+						);
+					return !t ||
+						('object' != typeof t && 'function' != typeof t)
+						? e
+						: t;
+				})(
+					this,
+					(t.__proto__ || Object.getPrototypeOf(t)).call(this, e)
+				);
+				return (r.state = { loaded: !1 }), r;
+			}
+			return (
+				(function(e, t) {
+					if ('function' != typeof t && null !== t)
+						throw new TypeError(
+							'Super expression must either be null or a function, not ' +
+								typeof t
+						);
+					(e.prototype = Object.create(t && t.prototype, {
+						constructor: {
+							value: e,
+							enumerable: !1,
+							writable: !0,
+							configurable: !0,
+						},
+					})),
+						t &&
+							(Object.setPrototypeOf
+								? Object.setPrototypeOf(e, t)
+								: (e.__proto__ = t));
+				})(t, e),
+				o(t, [
+					{
+						key: 'onImageLoad',
+						value: function() {
+							var e = this;
+							return this.state.loaded
+								? null
+								: function() {
+										e.props.afterLoad(),
+											e.setState({ loaded: !0 });
+								  };
+						},
+					},
+					{
+						key: 'getImg',
+						value: function() {
+							var e = this.props,
+								t =
+									(e.afterLoad,
+									e.beforeLoad,
+									e.delayMethod,
+									e.delayTime,
+									e.effect,
+									e.placeholder,
+									e.placeholderSrc,
+									e.scrollPosition,
+									e.threshold,
+									e.useIntersectionObserver,
+									e.visibleByDefault,
+									e.wrapperClassName,
+									(function(e, t) {
+										var r = {};
+										for (var n in e)
+											t.indexOf(n) >= 0 ||
+												(Object.prototype.hasOwnProperty.call(
+													e,
+													n
+												) &&
+													(r[n] = e[n]));
+										return r;
+									})(e, [
+										'afterLoad',
+										'beforeLoad',
+										'delayMethod',
+										'delayTime',
+										'effect',
+										'placeholder',
+										'placeholderSrc',
+										'scrollPosition',
+										'threshold',
+										'useIntersectionObserver',
+										'visibleByDefault',
+										'wrapperClassName',
+									]));
+							return i.default.createElement(
+								'img',
+								n({ onLoad: this.onImageLoad() }, t)
+							);
+						},
+					},
+					{
+						key: 'getLazyLoadImage',
+						value: function(e) {
+							var t = this.props,
+								r = t.beforeLoad,
+								n = t.className,
+								o = t.delayMethod,
+								a = t.delayTime,
+								s = t.height,
+								u = t.placeholder,
+								c = t.scrollPosition,
+								f = t.style,
+								p = t.threshold,
+								d = t.useIntersectionObserver,
+								y = t.visibleByDefault,
+								h = t.width;
+							return i.default.createElement(
+								l.default,
+								{
+									beforeLoad: r,
+									className: n,
+									delayMethod: o,
+									delayTime: a,
+									height: s,
+									placeholder: u,
+									scrollPosition: c,
+									style: f,
+									threshold: p,
+									useIntersectionObserver: d,
+									visibleByDefault: y,
+									width: h,
+								},
+								e
+							);
+						},
+					},
+					{
+						key: 'getWrappedLazyLoadImage',
+						value: function(e) {
+							var t = this.props,
+								r = t.effect,
+								n = t.height,
+								o = t.placeholderSrc,
+								a = t.width,
+								l = t.wrapperClassName,
+								s = this.state.loaded,
+								u = s ? ' lazy-load-image-loaded' : '';
+							return i.default.createElement(
+								'span',
+								{
+									className:
+										l +
+										' lazy-load-image-background ' +
+										r +
+										u,
+									style: {
+										backgroundImage:
+											s || !o ? '' : 'url(' + o + ')',
+										backgroundSize:
+											s || !o ? '' : '100% 100%',
+										color: 'transparent',
+										display: 'inline-block',
+										height: n,
+										width: a,
+									},
+								},
+								e
+							);
+						},
+					},
+					{
+						key: 'render',
+						value: function() {
+							var e = this.props,
+								t = e.effect,
+								r = e.placeholderSrc,
+								n = e.visibleByDefault,
+								o = this.state.loaded,
+								i = this.getImg(),
+								a = o ? i : this.getLazyLoadImage(i);
+							return (!t && !r) || n
+								? a
+								: this.getWrappedLazyLoadImage(a);
+						},
+					},
+				]),
+				t
+			);
+		})(i.default.Component);
+		(u.propTypes = {
+			afterLoad: a.PropTypes.func,
+			beforeLoad: a.PropTypes.func,
+			delayMethod: a.PropTypes.string,
+			delayTime: a.PropTypes.number,
+			effect: a.PropTypes.string,
+			placeholderSrc: a.PropTypes.string,
+			threshold: a.PropTypes.number,
+			useIntersectionObserver: a.PropTypes.bool,
+			visibleByDefault: a.PropTypes.bool,
+			wrapperClassName: a.PropTypes.string,
+		}),
+			(u.defaultProps = {
+				afterLoad: function() {
+					return {};
+				},
+				beforeLoad: function() {
+					return {};
+				},
+				delayMethod: 'throttle',
+				delayTime: 300,
+				effect: '',
+				placeholderSrc: null,
+				threshold: 100,
+				useIntersectionObserver: !0,
+				visibleByDefault: !1,
+				wrapperClassName: '',
+			}),
+			(t.default = u);
+	},
+	function(e, t, r) {
+		'use strict';
+		var n = r(11);
+		function o() {}
+		function i() {}
+		(i.resetWarningCache = o),
+			(e.exports = function() {
+				function e(e, t, r, o, i, a) {
+					if (a !== n) {
+						var l = new Error(
+							'Calling PropTypes validators directly is not supported by the `prop-types` package. Use PropTypes.checkPropTypes() to call them. Read more at http://fb.me/use-check-prop-types'
+						);
+						throw ((l.name = 'Invariant Violation'), l);
+					}
+				}
+				function t() {
+					return e;
+				}
+				e.isRequired = e;
+				var r = {
+					array: e,
+					bool: e,
+					func: e,
+					number: e,
+					object: e,
+					string: e,
+					symbol: e,
+					any: e,
+					arrayOf: t,
+					element: e,
+					elementType: e,
+					instanceOf: t,
+					node: e,
+					objectOf: t,
+					oneOf: t,
+					oneOfType: t,
+					shape: t,
+					exact: t,
+					checkPropTypes: i,
+					resetWarningCache: o,
+				};
+				return (r.PropTypes = r), r;
+			});
+	},
+	function(e, t, r) {
+		'use strict';
+		e.exports = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
+	},
+	function(e, t, r) {
+		'use strict';
+		Object.defineProperty(t, '__esModule', { value: !0 });
+		var n = (function() {
+				function e(e, t) {
+					for (var r = 0; r < t.length; r++) {
+						var n = t[r];
+						(n.enumerable = n.enumerable || !1),
+							(n.configurable = !0),
+							'value' in n && (n.writable = !0),
+							Object.defineProperty(e, n.key, n);
+					}
+				}
+				return function(t, r, n) {
+					return r && e(t.prototype, r), n && e(t, n), t;
+				};
+			})(),
+			o = l(r(0)),
+			i = l(r(4)),
+			a = l(r(6));
+		function l(e) {
+			return e && e.__esModule ? e : { default: e };
+		}
+		var s = (function(e) {
+			function t(e) {
+				return (
+					(function(e, t) {
+						if (!(e instanceof t))
+							throw new TypeError(
+								'Cannot call a class as a function'
+							);
+					})(this, t),
+					(function(e, t) {
+						if (!e)
+							throw new ReferenceError(
+								"this hasn't been initialised - super() hasn't been called"
+							);
+						return !t ||
+							('object' != typeof t && 'function' != typeof t)
+							? e
+							: t;
+					})(
+						this,
+						(t.__proto__ || Object.getPrototypeOf(t)).call(this, e)
+					)
+				);
+			}
+			return (
+				(function(e, t) {
+					if ('function' != typeof t && null !== t)
+						throw new TypeError(
+							'Super expression must either be null or a function, not ' +
+								typeof t
+						);
+					(e.prototype = Object.create(t && t.prototype, {
+						constructor: {
+							value: e,
+							enumerable: !1,
+							writable: !0,
+							configurable: !0,
+						},
+					})),
+						t &&
+							(Object.setPrototypeOf
+								? Object.setPrototypeOf(e, t)
+								: (e.__proto__ = t));
+				})(t, e),
+				n(t, [
+					{
+						key: 'render',
+						value: function() {
+							return o.default.createElement(
+								i.default,
+								this.props
+							);
+						},
+					},
+				]),
+				t
+			);
+		})(o.default.Component);
+		t.default = (0, a.default)(s);
+	},
+	function(e, t, r) {
+		(function(t) {
+			var r = 'Expected a function',
+				n = NaN,
+				o = '[object Symbol]',
+				i = /^\s+|\s+$/g,
+				a = /^[-+]0x[0-9a-f]+$/i,
+				l = /^0b[01]+$/i,
+				s = /^0o[0-7]+$/i,
+				u = parseInt,
+				c = 'object' == typeof t && t && t.Object === Object && t,
+				f =
+					'object' == typeof self &&
+					self &&
+					self.Object === Object &&
+					self,
+				p = c || f || Function('return this')(),
+				d = Object.prototype.toString,
+				y = Math.max,
+				h = Math.min,
+				b = function() {
+					return p.Date.now();
+				};
+			function v(e) {
+				var t = typeof e;
+				return !!e && ('object' == t || 'function' == t);
+			}
+			function m(e) {
+				if ('number' == typeof e) return e;
+				if (
+					(function(e) {
+						return (
+							'symbol' == typeof e ||
+							((function(e) {
+								return !!e && 'object' == typeof e;
+							})(e) &&
+								d.call(e) == o)
+						);
+					})(e)
+				)
+					return n;
+				if (v(e)) {
+					var t = 'function' == typeof e.valueOf ? e.valueOf() : e;
+					e = v(t) ? t + '' : t;
+				}
+				if ('string' != typeof e) return 0 === e ? e : +e;
+				e = e.replace(i, '');
+				var r = l.test(e);
+				return r || s.test(e)
+					? u(e.slice(2), r ? 2 : 8)
+					: a.test(e)
+					? n
+					: +e;
+			}
+			e.exports = function(e, t, n) {
+				var o,
+					i,
+					a,
+					l,
+					s,
+					u,
+					c = 0,
+					f = !1,
+					p = !1,
+					d = !0;
+				if ('function' != typeof e) throw new TypeError(r);
+				function O(t) {
+					var r = o,
+						n = i;
+					return (o = i = void 0), (c = t), (l = e.apply(n, r));
+				}
+				function w(e) {
+					var r = e - u;
+					return void 0 === u || r >= t || r < 0 || (p && e - c >= a);
+				}
+				function g() {
+					var e = b();
+					if (w(e)) return _(e);
+					s = setTimeout(
+						g,
+						(function(e) {
+							var r = t - (e - u);
+							return p ? h(r, a - (e - c)) : r;
+						})(e)
+					);
+				}
+				function _(e) {
+					return (s = void 0), d && o ? O(e) : ((o = i = void 0), l);
+				}
+				function P() {
+					var e = b(),
+						r = w(e);
+					if (((o = arguments), (i = this), (u = e), r)) {
+						if (void 0 === s)
+							return (function(e) {
+								return (
+									(c = e),
+									(s = setTimeout(g, t)),
+									f ? O(e) : l
+								);
+							})(u);
+						if (p) return (s = setTimeout(g, t)), O(u);
+					}
+					return void 0 === s && (s = setTimeout(g, t)), l;
+				}
+				return (
+					(t = m(t) || 0),
+					v(n) &&
+						((f = !!n.leading),
+						(a = (p = 'maxWait' in n)
+							? y(m(n.maxWait) || 0, t)
+							: a),
+						(d = 'trailing' in n ? !!n.trailing : d)),
+					(P.cancel = function() {
+						void 0 !== s && clearTimeout(s),
+							(c = 0),
+							(o = u = i = s = void 0);
+					}),
+					(P.flush = function() {
+						return void 0 === s ? l : _(b());
+					}),
+					P
+				);
+			};
+		}.call(this, r(7)));
+	},
+	function(e, t, r) {
+		(function(t) {
+			var r = 'Expected a function',
+				n = NaN,
+				o = '[object Symbol]',
+				i = /^\s+|\s+$/g,
+				a = /^[-+]0x[0-9a-f]+$/i,
+				l = /^0b[01]+$/i,
+				s = /^0o[0-7]+$/i,
+				u = parseInt,
+				c = 'object' == typeof t && t && t.Object === Object && t,
+				f =
+					'object' == typeof self &&
+					self &&
+					self.Object === Object &&
+					self,
+				p = c || f || Function('return this')(),
+				d = Object.prototype.toString,
+				y = Math.max,
+				h = Math.min,
+				b = function() {
+					return p.Date.now();
+				};
+			function v(e, t, n) {
+				var o,
+					i,
+					a,
+					l,
+					s,
+					u,
+					c = 0,
+					f = !1,
+					p = !1,
+					d = !0;
+				if ('function' != typeof e) throw new TypeError(r);
+				function v(t) {
+					var r = o,
+						n = i;
+					return (o = i = void 0), (c = t), (l = e.apply(n, r));
+				}
+				function w(e) {
+					var r = e - u;
+					return void 0 === u || r >= t || r < 0 || (p && e - c >= a);
+				}
+				function g() {
+					var e = b();
+					if (w(e)) return _(e);
+					s = setTimeout(
+						g,
+						(function(e) {
+							var r = t - (e - u);
+							return p ? h(r, a - (e - c)) : r;
+						})(e)
+					);
+				}
+				function _(e) {
+					return (s = void 0), d && o ? v(e) : ((o = i = void 0), l);
+				}
+				function P() {
+					var e = b(),
+						r = w(e);
+					if (((o = arguments), (i = this), (u = e), r)) {
+						if (void 0 === s)
+							return (function(e) {
+								return (
+									(c = e),
+									(s = setTimeout(g, t)),
+									f ? v(e) : l
+								);
+							})(u);
+						if (p) return (s = setTimeout(g, t)), v(u);
+					}
+					return void 0 === s && (s = setTimeout(g, t)), l;
+				}
+				return (
+					(t = O(t) || 0),
+					m(n) &&
+						((f = !!n.leading),
+						(a = (p = 'maxWait' in n)
+							? y(O(n.maxWait) || 0, t)
+							: a),
+						(d = 'trailing' in n ? !!n.trailing : d)),
+					(P.cancel = function() {
+						void 0 !== s && clearTimeout(s),
+							(c = 0),
+							(o = u = i = s = void 0);
+					}),
+					(P.flush = function() {
+						return void 0 === s ? l : _(b());
+					}),
+					P
+				);
+			}
+			function m(e) {
+				var t = typeof e;
+				return !!e && ('object' == t || 'function' == t);
+			}
+			function O(e) {
+				if ('number' == typeof e) return e;
+				if (
+					(function(e) {
+						return (
+							'symbol' == typeof e ||
+							((function(e) {
+								return !!e && 'object' == typeof e;
+							})(e) &&
+								d.call(e) == o)
+						);
+					})(e)
+				)
+					return n;
+				if (m(e)) {
+					var t = 'function' == typeof e.valueOf ? e.valueOf() : e;
+					e = m(t) ? t + '' : t;
+				}
+				if ('string' != typeof e) return 0 === e ? e : +e;
+				e = e.replace(i, '');
+				var r = l.test(e);
+				return r || s.test(e)
+					? u(e.slice(2), r ? 2 : 8)
+					: a.test(e)
+					? n
+					: +e;
+			}
+			e.exports = function(e, t, n) {
+				var o = !0,
+					i = !0;
+				if ('function' != typeof e) throw new TypeError(r);
+				return (
+					m(n) &&
+						((o = 'leading' in n ? !!n.leading : o),
+						(i = 'trailing' in n ? !!n.trailing : i)),
+					v(e, t, { leading: o, maxWait: t, trailing: i })
+				);
+			};
+		}.call(this, r(7)));
+	},
+	function(e, t, r) {
+		'use strict';
+		Object.defineProperty(t, '__esModule', { value: !0 });
+		var n = function(e, t) {
+				return 'undefined' == typeof getComputedStyle
+					? e.style[t]
+					: getComputedStyle(e, null).getPropertyValue(t);
+			},
+			o = function(e) {
+				return (
+					n(e, 'overflow') + n(e, 'overflow-y') + n(e, 'overflow-x')
+				);
+			};
+		t.default = function(e) {
+			if (!(e instanceof HTMLElement)) return window;
+			for (
+				var t = e;
+				t &&
+				t !== document.body &&
+				t !== document.documentElement &&
+				t.parentNode;
+
+			) {
+				if (/(scroll|auto)/.test(o(t))) return t;
+				t = t.parentNode;
+			}
+			return window;
+		};
+	},
+]);
+
+
+/***/ }),
+
+/***/ "./node_modules/react-timeago/lib/dateParser.js":
+/*!******************************************************!*\
+  !*** ./node_modules/react-timeago/lib/dateParser.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _classCallCheck = __webpack_require__(/*! @babel/runtime-corejs2/helpers/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js");
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = dateParser;
 
-var _createClass = __webpack_require__(/*! @babel/runtime-corejs2/helpers/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js");
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
-var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime-corejs2/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js");
+function _toArray(arr) { return Array.isArray(arr) ? arr : Array.from(arr); }
 
-var _getPrototypeOf = __webpack_require__(/*! @babel/runtime-corejs2/helpers/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js");
-
-var _inherits = __webpack_require__(/*! @babel/runtime-corejs2/helpers/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js");
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports["default"] = void 0;
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var _head = _interopRequireDefault(__webpack_require__(/*! ../next-server/lib/head */ "./node_modules/next/dist/next-server/lib/head.js"));
-
-var statusCodes = {
-  400: 'Bad Request',
-  404: 'This page could not be found',
-  405: 'Method Not Allowed',
-  500: 'Internal Server Error'
-};
-/**
-* `Error` component used for handling errors.
-*/
-
-var Error =
-/*#__PURE__*/
-function (_react$default$Compon) {
-  _inherits(Error, _react$default$Compon);
-
-  function Error() {
-    _classCallCheck(this, Error);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(Error).apply(this, arguments));
+function dateParser(date) {
+  var parsed = new Date(date);
+  if (!Number.isNaN(parsed.valueOf())) {
+    return parsed;
   }
 
-  _createClass(Error, [{
-    key: "render",
-    value: function render() {
-      var statusCode = this.props.statusCode;
-      var title = this.props.title || statusCodes[statusCode] || 'An unexpected error has occurred';
-      return _react["default"].createElement("div", {
-        style: styles.error
-      }, _react["default"].createElement(_head["default"], null, _react["default"].createElement("title", null, statusCode, ": ", title)), _react["default"].createElement("div", null, _react["default"].createElement("style", {
-        dangerouslySetInnerHTML: {
-          __html: 'body { margin: 0 }'
-        }
-      }), statusCode ? _react["default"].createElement("h1", {
-        style: styles.h1
-      }, statusCode) : null, _react["default"].createElement("div", {
-        style: styles.desc
-      }, _react["default"].createElement("h2", {
-        style: styles.h2
-      }, title, "."))));
+  var parts = String(date).match(/\d+/g);
+  if (parts == null || parts.length <= 2) {
+    return parsed;
+  } else {
+    var _parts$map = parts.map(function (x) {
+      return parseInt(x);
+    }),
+        _parts$map2 = _toArray(_parts$map),
+        firstP = _parts$map2[0],
+        secondP = _parts$map2[1],
+        restPs = _parts$map2.slice(2);
+
+    var correctedParts = [firstP, secondP - 1].concat(_toConsumableArray(restPs));
+    var isoDate = new Date(Date.UTC.apply(Date, _toConsumableArray(correctedParts)));
+    return isoDate;
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-timeago/lib/defaultFormatter.js":
+/*!************************************************************!*\
+  !*** ./node_modules/react-timeago/lib/defaultFormatter.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = defaultFormatter;
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var React = _interopRequireWildcard(_react);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function defaultFormatter(value, unit, suffix) {
+  if (value !== 1) {
+    unit += 's';
+  }
+  return value + ' ' + unit + ' ' + suffix;
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-timeago/lib/index.js":
+/*!*************************************************!*\
+  !*** ./node_modules/react-timeago/lib/index.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var React = _interopRequireWildcard(_react);
+
+var _defaultFormatter = __webpack_require__(/*! ./defaultFormatter */ "./node_modules/react-timeago/lib/defaultFormatter.js");
+
+var _defaultFormatter2 = _interopRequireDefault(_defaultFormatter);
+
+var _dateParser = __webpack_require__(/*! ./dateParser */ "./node_modules/react-timeago/lib/dateParser.js");
+
+var _dateParser2 = _interopRequireDefault(_dateParser);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Component = React.Component;
+
+
+// Just some simple constants for readability
+var MINUTE = 60;
+var HOUR = MINUTE * 60;
+var DAY = HOUR * 24;
+var WEEK = DAY * 7;
+var MONTH = DAY * 30;
+var YEAR = DAY * 365;
+
+var TimeAgo = function (_Component) {
+  _inherits(TimeAgo, _Component);
+
+  function TimeAgo() {
+    var _ref;
+
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, TimeAgo);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
     }
-  }], [{
-    key: "getInitialProps",
-    value: function getInitialProps(_ref) {
-      var res = _ref.res,
-          err = _ref.err;
-      var statusCode = res && res.statusCode ? res.statusCode : err ? err.statusCode : 404;
-      return {
-        statusCode: statusCode
-      };
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = TimeAgo.__proto__ || Object.getPrototypeOf(TimeAgo)).call.apply(_ref, [this].concat(args))), _this), _this.isStillMounted = false, _this.tick = function (refresh) {
+      if (!_this.isStillMounted || !_this.props.live) {
+        return;
+      }
+
+      var then = (0, _dateParser2.default)(_this.props.date).valueOf();
+      if (!then) {
+        console.warn('[react-timeago] Invalid Date provided');
+        return;
+      }
+
+      var now = _this.props.now();
+      var seconds = Math.round(Math.abs(now - then) / 1000);
+
+      var unboundPeriod = seconds < MINUTE ? 1000 : seconds < HOUR ? 1000 * MINUTE : seconds < DAY ? 1000 * HOUR : 0;
+      var period = Math.min(Math.max(unboundPeriod, _this.props.minPeriod * 1000), _this.props.maxPeriod * 1000);
+
+      if (period) {
+        if (_this.timeoutId) {
+          clearTimeout(_this.timeoutId);
+        }
+        _this.timeoutId = setTimeout(_this.tick, period);
+      }
+
+      if (!refresh) {
+        _this.forceUpdate();
+      }
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  _createClass(TimeAgo, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      this.isStillMounted = true;
+      if (this.props.live) {
+        this.tick(true);
+      }
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(lastProps) {
+      if (this.props.live !== lastProps.live || this.props.date !== lastProps.date) {
+        if (!this.props.live && this.timeoutId) {
+          clearTimeout(this.timeoutId);
+        }
+        this.tick();
+      }
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      this.isStillMounted = false;
+      if (this.timeoutId) {
+        clearTimeout(this.timeoutId);
+        this.timeoutId = undefined;
+      }
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      /* eslint-disable no-unused-vars */
+      var _props = this.props,
+          date = _props.date,
+          formatter = _props.formatter,
+          Komponent = _props.component,
+          live = _props.live,
+          minPeriod = _props.minPeriod,
+          maxPeriod = _props.maxPeriod,
+          title = _props.title,
+          now = _props.now,
+          passDownProps = _objectWithoutProperties(_props, ['date', 'formatter', 'component', 'live', 'minPeriod', 'maxPeriod', 'title', 'now']);
+      /* eslint-enable no-unused-vars */
+
+
+      var then = (0, _dateParser2.default)(date).valueOf();
+      if (!then) {
+        return null;
+      }
+      var timeNow = now();
+      var seconds = Math.round(Math.abs(timeNow - then) / 1000);
+      var suffix = then < timeNow ? 'ago' : 'from now';
+
+      var _ref2 = seconds < MINUTE ? [Math.round(seconds), 'second'] : seconds < HOUR ? [Math.round(seconds / MINUTE), 'minute'] : seconds < DAY ? [Math.round(seconds / HOUR), 'hour'] : seconds < WEEK ? [Math.round(seconds / DAY), 'day'] : seconds < MONTH ? [Math.round(seconds / WEEK), 'week'] : seconds < YEAR ? [Math.round(seconds / MONTH), 'month'] : [Math.round(seconds / YEAR), 'year'],
+          _ref3 = _slicedToArray(_ref2, 2),
+          value = _ref3[0],
+          unit = _ref3[1];
+
+      var passDownTitle = typeof title === 'undefined' ? typeof date === 'string' ? date : (0, _dateParser2.default)(date).toISOString().substr(0, 16).replace('T', ' ') : title;
+
+      var spreadProps = Komponent === 'time' ? Object.assign({}, passDownProps, {
+        dateTime: (0, _dateParser2.default)(date).toISOString()
+      }) : passDownProps;
+
+      var nextFormatter = _defaultFormatter2.default.bind(null, value, unit, suffix);
+
+      return React.createElement(
+        Komponent,
+        _extends({}, spreadProps, { title: passDownTitle }),
+        formatter(value, unit, suffix, then, nextFormatter, now)
+      );
     }
   }]);
 
-  return Error;
-}(_react["default"].Component);
+  return TimeAgo;
+}(Component);
 
-exports["default"] = Error;
-Error.displayName = 'ErrorPage';
-var styles = {
-  error: {
-    color: '#000',
-    background: '#fff',
-    fontFamily: '-apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif',
-    height: '100vh',
-    textAlign: 'center',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center'
-  },
-  desc: {
-    display: 'inline-block',
-    textAlign: 'left',
-    lineHeight: '49px',
-    height: '49px',
-    verticalAlign: 'middle'
-  },
-  h1: {
-    display: 'inline-block',
-    borderRight: '1px solid rgba(0, 0, 0,.3)',
-    margin: 0,
-    marginRight: '20px',
-    padding: '10px 23px 10px 0',
-    fontSize: '24px',
-    fontWeight: 500,
-    verticalAlign: 'top'
-  },
-  h2: {
-    fontSize: '14px',
-    fontWeight: 'normal',
-    lineHeight: 'inherit',
-    margin: 0,
-    padding: 0
+TimeAgo.displayName = 'TimeAgo';
+TimeAgo.defaultProps = {
+  live: true,
+  component: 'time',
+  minPeriod: 0,
+  maxPeriod: Infinity,
+  formatter: _defaultFormatter2.default,
+  now: function now() {
+    return Date.now();
   }
 };
+exports.default = TimeAgo;
 
 /***/ }),
 
@@ -3685,14 +5281,566 @@ module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f
 
 /***/ }),
 
+/***/ "./src/components/latestRepos/index.js":
+/*!*********************************************!*\
+  !*** ./src/components/latestRepos/index.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_timeago__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-timeago */ "./node_modules/react-timeago/lib/index.js");
+/* harmony import */ var react_timeago__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_timeago__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../link */ "./src/components/link/index.js");
+var _jsxFileName = "/Users/fredrik/u/github/frozzare/frozzare.github.com/src/components/latestRepos/index.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]),
+      repos = _useState[0],
+      setRepos = _useState[1];
+
+  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])([]),
+      events = _useState2[0],
+      setEvents = _useState2[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    fetch('https://gh-latest-repos.frozzare.now.sh/').then(function (r) {
+      return r.json();
+    }).then(setRepos);
+    fetch('https://api.github.com/users/frozzare/events/public').then(function (r) {
+      return r.json();
+    }).then(function (r) {
+      setEvents(r.filter(function (p) {
+        return p.type === 'PushEvent';
+      }));
+    });
+  }, []);
+  var reposHtml = repos.map(function (repo) {
+    return __jsx("div", {
+      className: "w-full lg:w-1/2",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: this
+    }, __jsx("div", {
+      className: "p-2 pl-0",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: this
+    }, __jsx("h4", {
+      className: "text-xl",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    }, __jsx("a", {
+      href: repo.url,
+      className: "underline",
+      rel: "noopener noreferrer",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: this
+    }, repo.name), __jsx("span", {
+      className: "text-xs rounded py-1 px-2 ml-2",
+      style: {
+        backgroundColor: repo.primaryLanguage.color
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }, repo.primaryLanguage.name)), __jsx("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: this
+    }, repo.description)));
+  });
+  var latestCommit = events.slice(0, 1).map(function (event) {
+    var commit = event.payload.commits.pop() || {};
+    var repo = event.repo || {};
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38
+      },
+      __self: this
+    }, __jsx("a", {
+      href: (commit.url || '').replace('api.', '').replace('repos/', '').replace('commits', 'commit'),
+      className: "underline",
+      rel: "noopener noreferrer",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38
+      },
+      __self: this
+    }, commit.message)), __jsx("p", {
+      className: "text-xs text-gray-500 pt-1",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39
+      },
+      __self: this
+    }, __jsx(react_timeago__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      date: event.created_at,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39
+      },
+      __self: this
+    }), " in ", __jsx("a", {
+      href: (repo.url || '').replace('api.', '').replace('repos/', ''),
+      className: "underline",
+      rel: "noopener noreferrer",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39
+      },
+      __self: this
+    }, event.repo.name)));
+  });
+  return __jsx("div", {
+    id: "projects",
+    className: "bg-gray-100",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "container mx-auto px-10 lg:px-0 py-20",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "flex justify-center content-center min-h-screen",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "m-auto",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "flex justify-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "w-full lg:w-3/4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, __jsx("h3", {
+    className: "text-3xl pb-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "Selected projects"), __jsx("div", {
+    className: "flex flex-wrap pb-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "w-full lg:w-1/2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "p-2 pl-0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, __jsx("h4", {
+    className: "text-xl",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "https://github.com/ylletjs/yllet/",
+    className: "underline",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, "Yllet"), __jsx("span", {
+    className: "text-xs rounded py-1 px-2 ml-2",
+    style: {
+      backgroundColor: 'rgb(241, 224, 90)'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, "JavaScript")), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, "Yllet is a set of packages for the WordPress API for both React and non-React projects."))), __jsx("div", {
+    className: "w-full lg:w-1/2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "p-2 pl-0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, __jsx("h4", {
+    className: "text-xl",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "https://swedishtechevents.com/",
+    className: "underline",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }, "Swedish Tech Events"), __jsx("span", {
+    className: "text-xs rounded py-1 px-2 ml-2",
+    style: {
+      backgroundColor: 'rgb(241, 224, 90)'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    },
+    __self: this
+  }, "JavaScript")), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68
+    },
+    __self: this
+  }, "Events for developers, technologists, and other geeks in Sweden.")))), __jsx("h3", {
+    className: "text-3xl pb-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72
+    },
+    __self: this
+  }, "Latest repos"), __jsx("div", {
+    className: "flex flex-wrap pb-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, repos.length ? reposHtml : __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
+  }, "Loading..")), __jsx("h3", {
+    className: "text-3xl pb-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, "Latest commit"), events.length ? latestCommit : __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }, "Loading..."), __jsx("p", {
+    className: "mt-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }, __jsx(_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    to: "https://github.com/frozzare",
+    title: "Visit my GitHub profile",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }))))))));
+});
+
+/***/ }),
+
+/***/ "./src/components/link/index.js":
+/*!**************************************!*\
+  !*** ./src/components/link/index.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/fredrik/u/github/frozzare/frozzare.github.com/src/components/link/index.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var children = _ref.children,
+      to = _ref.to;
+  return __jsx("a", {
+    className: "underline text-blue-500",
+    href: to,
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
+  }, children);
+});
+
+/***/ }),
+
+/***/ "./src/pages/index.js":
+/*!****************************!*\
+  !*** ./src/pages/index.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_latestRepos__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/latestRepos */ "./src/components/latestRepos/index.js");
+/* harmony import */ var _components_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/link */ "./src/components/link/index.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_lazy_load_image_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-lazy-load-image-component */ "./node_modules/react-lazy-load-image-component/build/index.js");
+/* harmony import */ var react_lazy_load_image_component__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_lazy_load_image_component__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "/Users/fredrik/u/github/frozzare/frozzare.github.com/src/pages/index.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "Fredrik Forsmo"), __jsx("meta", {
+    name: "description",
+    content: "Full-stack developer, tech maker and open source ninja.",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }), __jsx("meta", {
+    property: "og:title",
+    content: "Fredrik Forsmo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), __jsx("meta", {
+    property: "og:description",
+    content: "Full-stack developer, tech maker and open source ninja.",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), __jsx("meta", {
+    property: "og:image",
+    content: "https://frozzare.com/frozzare.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:title",
+    content: "Fredrik Forsmo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:description",
+    content: "Full-stack developer, tech maker and open source ninja.",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:image",
+    content: "https://frozzare.com/frozzare.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:card",
+    content: "summary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  })), __jsx("div", {
+    id: "home",
+    className: "container mx-auto",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "pt-20",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "flex flex-wrap content-center min-h-screen",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "w-full flex justify-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "h-48 w-48 lg:h-64 lg:w-64 lg:pin-l lg:pin-t mt-10 mb-10 lg:mt-0 lg:-mt-32 mb-0 lg:mb-12",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx(react_lazy_load_image_component__WEBPACK_IMPORTED_MODULE_4__["LazyLoadImage"], {
+    src: "/frozzare.jpg",
+    alt: "Fredrik Forsmo",
+    className: "rounded h-48 w-48 lg:h-64 lg:w-64",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }))), __jsx("div", {
+    className: "w-11/12 lg:w-2/4 m-auto",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, __jsx("h1", {
+    className: "text-6xl pb-5 text-center lg:text-left",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "Hello! \uD83D\uDC4B"), __jsx("p", {
+    className: "text-2xl",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "I'm Fredrik Forsmo, full-stack developer, tech maker and open source ninja and focusing on JavaScript, PHP and Go. I'm ", __jsx(_components_link__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    to: "https://twitter.com/frozzare",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "@frozzare"), " on Twitter."))))), __jsx(_components_latestRepos__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }));
+});
+
+/***/ }),
+
 /***/ 1:
-/*!**************************************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Ffredrik%2Fu%2Fgithub%2Ffrozzare%2Ffrozzare.github.com%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
-  \**************************************************************************************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Ffredrik%2Fu%2Fgithub%2Ffrozzare%2Ffrozzare.github.com%2Fsrc%2Fpages%2Findex.js ***!
+  \**********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Ffredrik%2Fu%2Fgithub%2Ffrozzare%2Ffrozzare.github.com%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Ffredrik%2Fu%2Fgithub%2Ffrozzare%2Ffrozzare.github.com%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Ffredrik%2Fu%2Fgithub%2Ffrozzare%2Ffrozzare.github.com%2Fsrc%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Ffredrik%2Fu%2Fgithub%2Ffrozzare%2Ffrozzare.github.com%2Fsrc%2Fpages%2Findex.js!./");
 
 
 /***/ }),
@@ -3709,4 +5857,4 @@ module.exports = dll_ef0ff7c60362f24a921f;
 /***/ })
 
 },[[1,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=_error.js.map
+//# sourceMappingURL=index.js.map
