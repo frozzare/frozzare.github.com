@@ -29,7 +29,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next",
-    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && cp -R public/* out/ && gh-pages -d out -b master --dotfiles",
+    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -b master --dotfiles",
     "export": "next export -o ./out ./src",
     "lint": "semistandard",
     "sitemap": "node scripts/sitemap.js",
