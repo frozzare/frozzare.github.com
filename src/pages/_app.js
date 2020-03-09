@@ -7,11 +7,11 @@ import '../styles/index.css';
 const menus = [
   {
     title: 'Home',
-    path: '#home'
+    path: '/#home'
   },
   {
     title: 'Projects',
-    path: '#projects'
+    path: '/#projects'
   },
   {
     title: 'Uses',
