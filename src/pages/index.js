@@ -26,7 +26,7 @@ export default () => (
           </div>
           <div className="w-11/12 lg:w-2/4 m-auto">
             <h1 className="text-6xl pb-5 text-center lg:text-left">Hello! 👋</h1>
-            <p className="text-2xl">I'm Fredrik Forsmo, full-stack developer, tech maker and open source ninja and focusing on JavaScript, PHP and Go. I'm <Link to='https://twitter.com/frozzare'>@frozzare</Link> on Twitter.</p>
+            <p className="text-2xl">I'm Fredrik Forsmo, full-stack developer, tech maker and open source ninja and focusing on JavaScript and Go. I'm <Link to='https://twitter.com/frozzare'>@frozzare</Link> on Twitter.</p>
           </div>
         </div>
       </div>
