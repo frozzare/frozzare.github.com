@@ -56,7 +56,7 @@ export default () => {
                         <a href="https://personnummer.dev" className="underline" rel="noopener noreferrer">Personnummer</a>
                         <span className="text-xs rounded py-1 px-2 ml-2" style={{backgroundColor: 'rgb(241, 224, 90)'}}>JavaScript</span>
                       </h4>
-                      <p>packages for validating Swedish personal identity numbers in different programming languages.</p>
+                      <p>Packages for validating Swedish personal identity numbers in different programming languages.</p>
                     </div>
                   </div>
                   <div className="w-full lg:w-1/2">
