@@ -41,7 +41,7 @@ export default () => (
               You can find me on{" "}
               <Link to="https://github.com/frozzare">GitHub</Link>,{" "}
               <Link to="https://twitter.com/frozzare">Twitter</Link> or{" "}
-              <Link to="https://linkedin.com/frozzare">LinkedIn</Link>. Feel
+              <Link to="https://www.linkedin.com/in/frozzare/">LinkedIn</Link>. Feel
               free to contact me on social media or send me a email at{" "}
               <Link to="mailto:hello@frozzare.com">hello@frozzare.com</Link>.
             </p>
