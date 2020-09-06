@@ -33,7 +33,7 @@ const Index = () => (
             </h1>
             <p className="text-2xl mb-5">
               I'm Fredrik Forsmo, full-stack developer, tech maker and open
-              source ninja and focusing on JavaScript and Go from Stockholm,
+              source ninja focusing on JavaScript and Go from Stockholm,
               Sweden 🇸🇪.
             </p>
             <p className="text-2xl">
@@ -41,7 +41,7 @@ const Index = () => (
               <Link to="https://github.com/frozzare">GitHub</Link>,{" "}
               <Link to="https://twitter.com/frozzare">Twitter</Link> or{" "}
               <Link to="https://www.linkedin.com/in/frozzare/">LinkedIn</Link>. Feel
-              free to contact me on social media or send me a email at{" "}
+              free to contact me on social media or send me an email at{" "}
               <Link to="mailto:hello@frozzare.com">hello@frozzare.com</Link>.
             </p>
           </div>
