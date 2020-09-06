@@ -5,3 +5,52 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.hello {
+  display: inline-block;
+  -webkit-animation-name: wave-animation;
+  animation-name: wave-animation;
+  -webkit-animation-duration: 2.5s;
+  animation-duration: 2.5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-transform-origin: 70% 70%;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave-animation {
+  0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg)
+  }
+
+  10% {
+      -webkit-transform: rotate(-10deg);
+      transform: rotate(-10deg)
+  }
+
+  20% {
+      -webkit-transform: rotate(12deg);
+      transform: rotate(12deg)
+  }
+
+  30% {
+      -webkit-transform: rotate(-10deg);
+      transform: rotate(-10deg)
+  }
+
+  40% {
+      -webkit-transform: rotate(9deg);
+      transform: rotate(9deg)
+  }
+
+  50% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg)
+  }
+
+  100% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg)
+  }
+}
