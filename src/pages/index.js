@@ -1,9 +1,8 @@
 import LatestRepos from "../components/latestRepos";
 import Link from "../components/link";
 import Head from "next/head";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
-export default () => (
+const Index = () => (
   <>
     <Head>
       <title>Fredrik Forsmo</title>
@@ -30,7 +29,7 @@ export default () => (
         <div className="flex flex-wrap content-center min-h-screen">
           <div className="lg:w-6/12 w-10/12 m-auto">
             <h1 className="text-4xl mb-5 text-left">
-              Hello! <span class="hello">👋</span>
+              Hello! <span className="hello">👋</span>
             </h1>
             <p className="text-2xl mb-5">
               I'm Fredrik Forsmo, full-stack developer, tech maker and open
@@ -51,3 +50,5 @@ export default () => (
     </div>
   </>
 );
+
+export default Index;
