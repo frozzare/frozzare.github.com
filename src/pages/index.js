@@ -24,8 +24,8 @@ const Index = () => (
       <meta name="twitter:image" content="https://frozzare.com/frozzare.jpg" />
       <meta name="twitter:card" content="summary" />
     </Head>
-    <div className="container mx-auto">
-      <div className="bg-f-blue text-white">
+    <div className="bg-f-blue text-white">
+      <div className="container mx-auto">
         <div className="flex flex-wrap content-center min-h-screen">
           <div className="lg:w-6/12 w-10/12 m-auto">
             <h1 className="text-4xl mb-5 text-left">
@@ -33,15 +33,15 @@ const Index = () => (
             </h1>
             <p className="text-2xl mb-5">
               I'm Fredrik Forsmo, full-stack developer, tech maker and open
-              source ninja focusing on JavaScript and Go from Stockholm,
-              Sweden 🇸🇪.
+              source ninja focusing on JavaScript and Go from Stockholm, Sweden
+              🇸🇪.
             </p>
             <p className="text-2xl">
               You can find me on{" "}
               <Link to="https://github.com/frozzare">GitHub</Link>,{" "}
               <Link to="https://twitter.com/frozzare">Twitter</Link> or{" "}
-              <Link to="https://www.linkedin.com/in/frozzare/">LinkedIn</Link>. Feel
-              free to contact me on social media or send me an email at{" "}
+              <Link to="https://www.linkedin.com/in/frozzare/">LinkedIn</Link>.
+              Feel free to contact me on social media or send me an email at{" "}
               <Link to="mailto:hello@frozzare.com">hello@frozzare.com</Link>.
             </p>
           </div>
