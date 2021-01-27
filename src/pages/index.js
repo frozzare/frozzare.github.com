@@ -8,18 +8,18 @@ const Index = () => (
       <title>Fredrik Forsmo</title>
       <meta
         name="description"
-        content="Full-stack developer, tech maker and open source ninja."
+        content="Full-stack developer, tech maker and open source enthusiast."
       />
       <meta property="og:title" content="Fredrik Forsmo" />
       <meta
         property="og:description"
-        content="Full-stack developer, tech maker and open source ninja."
+        content="Full-stack developer, tech maker and open source enthusiast."
       />
       <meta property="og:image" content="https://frozzare.com/frozzare.jpg" />
       <meta name="twitter:title" content="Fredrik Forsmo" />
       <meta
         name="twitter:description"
-        content="Full-stack developer, tech maker and open source ninja."
+        content="Full-stack developer, tech maker and open source enthusiast."
       />
       <meta name="twitter:image" content="https://frozzare.com/frozzare.jpg" />
       <meta name="twitter:card" content="summary" />
@@ -33,8 +33,8 @@ const Index = () => (
             </h1>
             <p className="text-2xl mb-5">
               I'm Fredrik Forsmo, full-stack developer, tech maker and open
-              source ninja focusing on JavaScript and Go from Stockholm, Sweden
-              🇸🇪.
+              source enthusiast focusing on JavaScript and Go from Stockholm,
+              Sweden 🇸🇪.
             </p>
             <p className="text-2xl">
               You can find me on{" "}
