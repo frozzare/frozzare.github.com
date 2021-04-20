@@ -1,4 +1,3 @@
-import Link from '../components/link';
 import Head from 'next/head';
 
 const Link = ({ children, to }) => (
