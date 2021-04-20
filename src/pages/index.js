@@ -1,6 +1,16 @@
-import LatestRepos from "../components/latestRepos";
-import Link from "../components/link";
-import Head from "next/head";
+import Link from '../components/link';
+import Head from 'next/head';
+
+const Link = ({ children, to }) => (
+  <a
+    className="underline text-f-pink"
+    href={to}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    {children}
+  </a>
+);
 
 const Index = () => (
   <>
@@ -36,11 +46,11 @@ const Index = () => (
               focusing on JavaScript and Go from Stockholm, Sweden 🇸🇪.
             </p>
             <p className="text-2xl">
-              You can find me on{" "}
-              <Link to="https://github.com/frozzare">GitHub</Link>,{" "}
-              <Link to="https://twitter.com/frozzare">Twitter</Link> or{" "}
+              You can find me on{' '}
+              <Link to="https://github.com/frozzare">GitHub</Link>,{' '}
+              <Link to="https://twitter.com/frozzare">Twitter</Link> or{' '}
               <Link to="https://www.linkedin.com/in/frozzare/">LinkedIn</Link>.
-              Feel free to contact me on social media or send me an email at{" "}
+              Feel free to contact me on social media or send me an email at{' '}
               <Link to="mailto:hello@frozzare.com">hello@frozzare.com</Link>.
             </p>
           </div>
