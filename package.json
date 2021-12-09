@@ -7,15 +7,15 @@
   "author": "Fredrik Forsmo <fredrik.forsmo@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@babel/eslint-parser": "^7.16.0",
+    "@babel/eslint-parser": "^7.16.3",
     "autoprefixer": "^10.4.0",
-    "next": "^12.0.1",
-    "postcss": "^8.3.11",
+    "next": "^12.0.7",
+    "postcss": "^8.4.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-timeago": "^6.2.1",
     "semistandard": "^16.0.1",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^3.0.0"
   },
   "scripts": {
     "build": "next build",

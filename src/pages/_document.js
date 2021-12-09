@@ -1,4 +1,4 @@
-import Document, { Head, Main, NextScript } from 'next/document';
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 export default class AppDocument extends Document {
   static async getInitialProps(ctx) {
@@ -23,7 +23,7 @@ export default class AppDocument extends Document {
   render() {
     const { isProduction } = this.props;
     return (
-      <html lang="en">
+      <Html lang="en">
         <Head>
           <meta charSet="UTF-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -67,7 +67,7 @@ export default class AppDocument extends Document {
             }}
           />
         </body>
-      </html>
+      </Html>
     );
   }
 }
