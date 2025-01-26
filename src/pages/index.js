@@ -41,7 +41,8 @@ const Index = () => (
               Hello! <span className="hello">👋</span>
             </h1>
             <p className="text-2xl mb-5">
-              I'm Fredrik Forsmo, full-stack developer and open-sourcerer from Stockholm, Sweden 🇸🇪.
+              I&apos;m Fredrik Forsmo, full-stack developer and open-sourcerer
+              from Stockholm, Sweden 🇸🇪
             </p>
             <p className="text-2xl">
               You can find me on{' '}

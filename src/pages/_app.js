@@ -1,5 +1,15 @@
 import React from 'react';
-import App from 'next/app';
 import '../styles/index.css';
+import { Roboto } from 'next/font/google';
 
-export default App;
+const roboto = Roboto({
+  weight: ['400'],
+  display: 'swap',
+  subsets: ['latin'],
+});
+
+export default ({ Component, pageProps }) => (
+  <main className={roboto.className}>
+    <Component {...pageProps} />
+  </main>
+);

@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
 .hello {
   display: inline-block;
   -webkit-animation-name: wave-animation;

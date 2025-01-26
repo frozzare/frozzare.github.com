@@ -6,26 +6,22 @@
   "main": "index.js",
   "author": "Fredrik Forsmo <fredrik.forsmo@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "@babel/eslint-parser": "^7.16.3",
-    "autoprefixer": "^10.4.0",
-    "next": "^12.1.0",
-    "postcss": "^8.4.4",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-timeago": "^6.2.1",
-    "semistandard": "^16.0.1",
-    "tailwindcss": "^3.0.0"
-  },
   "scripts": {
     "build": "next build",
     "dev": "next",
     "export": "next export",
-    "lint": "semistandard",
+    "lint": "next lint",
     "sitemap": "node scripts/sitemap.js",
     "start": "next start"
   },
-  "semistandard": {
-    "parser": "@babel/eslint-parser"
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "eslint": "9.19.0",
+    "eslint-config-next": "15.1.6",
+    "next": "^15.1.6",
+    "postcss": "^8.5.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^3.0.0"
   }
 }
