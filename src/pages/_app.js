@@ -8,8 +8,10 @@ const roboto = Roboto({
   subsets: ['latin'],
 });
 
-export default ({ Component, pageProps }) => (
+const App = ({ Component, pageProps }) => (
   <main className={roboto.className}>
     <Component {...pageProps} />
   </main>
 );
+
+export default App;
