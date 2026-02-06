@@ -5,7 +5,7 @@ import { Metadata } from "next"
 
 const data: DataPoint[] = steps as DataPoint[]
 
-const dateFormatter = new Intl.DateTimeFormat("sv-SE", {
+const dateFormatter = new Intl.DateTimeFormat("en-US", {
   year: "numeric",
   month: "long",
   day: "numeric",
