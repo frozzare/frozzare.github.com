@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/index.css';
 import { Roboto } from 'next/font/google';
+import type { AppProps } from 'next/app';
 
 const roboto = Roboto({
   weight: ['400'],
@@ -8,7 +9,7 @@ const roboto = Roboto({
   subsets: ['latin'],
 });
 
-const App = ({ Component, pageProps }) => (
+const App: React.FC<AppProps> = ({ Component, pageProps }) => (
   <main className={roboto.className}>
     <Component {...pageProps} />
   </main>

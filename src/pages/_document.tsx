@@ -1,6 +1,7 @@
 import { Html, Head, Main, NextScript } from 'next/document';
+import type { DocumentProps } from 'next/document';
 
-const Document = () => (
+const Document: React.FC<DocumentProps> = () => (
   <Html lang="en">
     <Head>
       <meta charSet="UTF-8" />

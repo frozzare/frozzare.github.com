@@ -1,6 +1,12 @@
 import Head from 'next/head';
+import type { NextPage } from 'next';
 
-const Link = ({ children, to }) => (
+interface LinkProps {
+  children: React.ReactNode;
+  to: string;
+}
+
+const Link: React.FC<LinkProps> = ({ children, to }) => (
   <a
     className="underline text-f-pink"
     href={to}
@@ -11,7 +17,7 @@ const Link = ({ children, to }) => (
   </a>
 );
 
-const Index = () => (
+const Index: NextPage = () => (
   <>
     <Head>
       <title>Fredrik Forsmo</title>

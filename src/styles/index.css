@@ -1,6 +1,9 @@
 @import 'tailwindcss';
 
-@config '../../tailwind.config.js';
+@theme {
+  --color-f-blue: #29384C;
+  --color-f-pink: #ECB6B6;
+}
 
 /*
   The default border color has changed to `currentColor` in Tailwind CSS v4,
